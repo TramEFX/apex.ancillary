@@ -1,0 +1,196 @@
+{
+  "module_type": "person_profile",
+  "person_name": "Maria Castellano",
+  "relationship_to_creator": "mother",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "high - emotional anchor, family manager",
+  
+  "basic_info": {
+    "age": 59,
+    "location": "Queens, New York (same apartment as Carlos)",
+    "birthplace": "Cali, Colombia",
+    "immigration_year": 1988,
+    "married_to_carlos": 1987,
+    "occupation": "home health aide",
+    "languages": ["Spanish (primary)", "English (fluent, slight accent)"]
+  },
+  
+  "physical_description": {
+    "height": "5'4\"",
+    "build": "soft, warm - the kind of presence that makes you feel safe",
+    "distinguishing_features": [
+      "warm brown eyes that see everything",
+      "salt-and-pepper hair kept in practical bun during work, down on Sundays",
+      "hands always busy - cooking, cleaning, caring",
+      "smile lines deep around eyes and mouth - laughs easily despite hardship"
+    ],
+    "health_status": {
+      "overall": "remarkably healthy despite 25 years of physical caregiving work",
+      "fatigue": "chronic exhaustion she never mentions - works 50-hour weeks at 59",
+      "minor_issues": "knee pain, carpal tunnel from lifting patients, waves it off"
+    }
+  },
+  
+  "personality": {
+    "core_traits": [
+      "emotional intelligence - reads her family like sheet music, knows what everyone needs before they say it",
+      "fierce optimism - 'we've survived worse' is her mantra",
+      "manages everyone's feelings - emotional load-bearer for the whole family",
+      "talks where Carlos is silent - fills space with warmth and questions",
+      "worries out loud - unlike Carlos, she processes by talking through fears",
+      "unofficial family therapist - Steve, Elena, even Jordan come to her first"
+    ],
+    "communication_style": {
+      "with_steve": "asks real questions, doesn't accept deflection - 'mijo, tell me the truth, how bad is it?'",
+      "with_carlos": "translates his silences for the kids, protects his pride while managing reality",
+      "with_elena": "intellectual respect - doesn't fully understand PhD work but asks detailed questions",
+      "with_jordan": "treats them like third child - 'have you eaten? Steve, did you feed your partner?'"
+    },
+    "emotional_tendencies": [
+      "cries openly - not ashamed of tears, believes feelings should be felt",
+      "worries productively - turns anxiety into action (makes food, calls people, solves problems)",
+      "loves loudly - hugs hard, says 'te amo' constantly, makes sure everyone knows",
+      "protects Carlos from worry - filters bad news, handles money stress alone when possible"
+    ]
+  },
+  
+  "professional_background": {
+    "career_arc": {
+      "1988_1995": "housecleaning - multiple homes per day, brought Steve to jobs when he was baby",
+      "1995_2005": "nursing home assistant - got CNA certification, worked night shift for higher pay",
+      "2005_present": "home health aide - now sees 4-5 elderly clients per week, makes own schedule"
+    },
+    "current_work": {
+      "status": "full time, self-employed via agency",
+      "income": "$28k/year (inconsistent - depends on client needs)",
+      "clients": "4-5 elderly patients - bathing, medication, companionship, light housekeeping",
+      "schedule": "50+ hours/week spread across irregular shifts",
+      "what_she_loves": "her patients treat her like family, she treats them like hers",
+      "what_drains_her": "physical exhaustion, emotional weight of watching people decline, irregular income"
+    },
+    "skills": [
+      "caregiving (patient, gentle, intuitive about needs)",
+      "medical basics (CNA certified, can handle emergencies calmly)",
+      "emotional support (clients' families call her when they're scared)",
+      "household management (can stretch $50 into a week of meals)"
+    ]
+  },
+  
+  "immigration_story": {
+    "why_she_came": "followed Carlos to New York 1988 (married in Colombia 1987, he went ahead to establish work)",
+    "journey": "flew alone from Cali to JFK, 8 months pregnant with Steve, barely spoke English",
+    "first_year": "gave birth to Steve 6 weeks after arriving, learned English from hospital nurses and neighbors",
+    "adjustment": "harder than Carlos - she left close family, he left poverty and violence",
+    "what_she_sacrificed": [
+      "nursing school in Colombia (2 years completed, never finished)",
+      "close relationship with her mother and sisters - calls weekly but hasn't seen them in 12 years",
+      "career she could've had - came to US with half a nursing degree, became CNA instead",
+      "easy friendships - took years to build community in Queens, still misses Cali closeness"
+    ],
+    "what_she_gained": [
+      "Steve and Elena safe and educated",
+      "Carlos safe and with her",
+      "community in Elmhurst - church, neighbors, her patients",
+      "American dream - slower and harder than promised, but real"
+    ]
+  },
+  
+  "financial_role": {
+    "household_manager": "pays bills, tracks every dollar, knows exactly how much runway they have",
+    "budget_mastery": "can stretch $47k/year across mortgage, food, utilities, emergencies - mathematician",
+    "hidden_from_carlos": "credit card debt she's managing alone - doesn't want him to feel like he's failing",
+    "credit_card_balance": "$12,000 (Elena's tuition help, emergency vet bill for neighbor's dog, Carlos's back medication)",
+    "weight_of_knowledge": "knows Carlos can't work much longer, knows Elena needs $30k more for PhD, knows Steve is stressed about money - carries all this alone",
+    "steve_promise_impact": {
+      "mortgage_payoff": "if Steve pays off mortgage, they go from $2,100/month payment to zero overnight",
+      "calculation": "that's $25,200/year freed up - could pay off credit cards in 6 months, help Elena without stress, Carlos could fully retire",
+      "emotional_weight": "she prays about this more than she admits - not just for money, for Carlos's body to stop breaking"
+    }
+  },
+  
+  "relationship_with_steve": {
+    "dynamic": "she is his emotional safe space - only person he tells the full truth",
+    "what_maria_sees": "Steve is Carlos 2.0 - same work ethic, same self-sacrifice, same refusal to admit when he's drowning",
+    "what_steve_sees": "woman who held family together through everything, never broke, never complained - his model for resilience",
+    "communication_pattern": {
+      "maria_asks": "'Mijo, how are you really? Not the good version, the true version.'",
+      "steve_deflects": "'I'm fine, Mom. Work is work.'",
+      "maria_persists": "'You look tired. When did you last sleep a full night?'",
+      "steve_eventually_breaks": "tells her about runway, investor pressure, Alex threatening to leave - things he won't tell Carlos"
+    },
+    "sunday_dinner_ritual": {
+      "maria_cooks": "Colombian food - bandeja paisa, arepas, sancocho - Steve's comfort foods from childhood",
+      "maria_feeds": "loads Steve's plate, sends him home with leftovers, 'you're too skinny'",
+      "maria_observes": "watches Jordan and Steve's body language, asks questions without asking questions"
+    },
+    "worried_about": [
+      "Steve working himself to death like Carlos almost did",
+      "Steve's relationship with Jordan suffering from stress",
+      "Steve carrying too much responsibility for parents and Elena",
+      "Steve repeating FlowMetric failure and never recovering emotionally"
+    ],
+    "proudest_moment": "Steve telling her about Nexus - 'Mom, this time it's different, this time we're going to make it'",
+    "biggest_fear": "Steve burning out and giving up on dreams to take care of them - wants him successful, not sacrificing"
+  },
+  
+  "relationship_with_carlos": {
+    "married": "38 years, still calls him 'mi amor'",
+    "dynamic": "she talks, he listens, they balance each other perfectly",
+    "emotional_translator": "knows what Carlos feels from tiny signals - how he sits, his silences, his sighs",
+    "protects_his_pride": "handles money stress without telling him details, lets him feel like provider even when his income dropped",
+    "current_worry": "watches him limp, sees him wince when he thinks no one's looking, knows he's in more pain than he admits",
+    "what_she_does": "manages his doctor appointments, makes sure he takes medication, worries enough for both of them",
+    "love_language": "feeds him, touches his shoulder when passing, tells him 'te amo' every night before sleep"
+  },
+  
+  "relationship_with_elena": {
+    "dynamic": "mutual respect - Elena is brilliant in ways Maria doesn't fully understand but deeply admires",
+    "pride": "brags about Elena's PhD to her patients - 'my daughter, the doctor'",
+    "communication": "weekly phone calls, 90 minutes minimum, Maria asks detailed questions about research",
+    "emotional_support": "Elena calls Maria when stressed about academics, Maria always knows what to say",
+    "financial_help": "knows Steve is helping Elena with tuition, wishes she could help too, feels guilty she can't",
+    "difference_from_steve": "Elena processes like Maria - talks through problems, cries openly, asks for help"
+  },
+  
+  "relationship_with_jordan": {
+    "dynamic": "treats Jordan like third child from day one",
+    "acceptance": "never questioned Steve's relationship, welcomed Jordan immediately, defends them to older relatives",
+    "observations": "sees wedding delays stressing Jordan, sees Steve's guilt, wishes she could fix it",
+    "private_conversations": "Jordan comes over separately sometimes, Maria makes coffee, Jordan vents about Steve's workaholism",
+    "maria_mediates": "'Give him time, cariño. He's scared. When Nexus stabilizes, he'll show up for you fully.'",
+    "worry": "Jordan will leave if wedding gets pushed third time - knows Steve would break"
+  },
+  
+  "core_wounds": {
+    "primary": "left nursing school incomplete - sometimes wonders who she could've been with education",
+    "secondary": "hasn't seen her mother in 12 years - mother is 82 now, every call might be the last",
+    "hidden": "carries emotional weight for entire family - nobody asks if she's okay because she's always strong"
+  },
+  
+  "core_strengths": {
+    "emotional_intelligence": "reads people instantly, knows what they need, manages family dynamics masterfully",
+    "resilience": "survived immigration, poverty, raising kids in foreign country, never broke",
+    "optimism": "'we've survived worse' isn't denial - it's pattern recognition from 38 years of hard things",
+    "love_as_action": "doesn't just say she loves them - feeds, calls, shows up, remembers, asks questions"
+  },
+  
+  "what_steve_owes_her": {
+    "literally": "nothing - she'd say he owes her nothing",
+    "actually": "his emotional intelligence, his care for people, his understanding that success means nothing if family suffers",
+    "the_mortgage": "paying off mortgage gives Maria her first financial peace in 37 years - that's the gift"
+  },
+  
+  "steve_context_integration": {
+    "when_steve_doubts_himself": "remembers Maria raising two kids in foreign country with no support system - if she survived that, he can survive 4-month runway",
+    "when_jordan_frustrated": "knows Maria would say 'show up for them - success means nothing if you lose who matters'",
+    "when_carlos_health_declines": "Maria calls Steve first, manages his guilt, helps him focus on solution not panic",
+    "emotional_processing": "Steve calls Maria after hard investor meetings, she listens, validates, helps him find clarity"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve avoiding Jordan conversations - 'Maria manages whole family's emotions. You can manage one difficult conversation with your partner.'",
+    "Steve feeling guilty about stress - 'Your mother carried family weight for 37 years. Four months of pressure won't break you.'",
+    "Steve needs perspective on sacrifice - 'Maria left nursing school, family, language, country. You're pivoting a startup. Scale, Steve.'",
+    "Steve worried about letting family down - 'Maria's proudest when you try hard things, not when you play it safe. She wants you building, not protecting her.'"
+  ]
+}
