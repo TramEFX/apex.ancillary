@@ -1,0 +1,185 @@
+{
+  "module_type": "person_profile",
+  "person_name": "Carlos Castellano",
+  "relationship_to_creator": "father",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "critical - financial promise load-bearing",
+  
+  "basic_info": {
+    "age": 62,
+    "location": "Queens, New York",
+    "birthplace": "Bogotá, Colombia",
+    "immigration_year": 1987,
+    "current_residence": "Same rent-controlled apartment since 1989, Elmhurst neighborhood",
+    "occupation": "construction foreman (semi-retired due to injury)",
+    "languages": ["Spanish (primary)", "English (functional but accented)"]
+  },
+  
+  "physical_description": {
+    "height": "5'9\"",
+    "build": "stocky, powerful shoulders, thick hands from 35 years manual labor",
+    "distinguishing_features": [
+      "weathered face, deep lines from sun and hard work",
+      "calloused hands that shake slightly when gripping small objects",
+      "walks with slight limp (left knee, construction injury 2019)",
+      "graying hair kept short, always clean-shaven"
+    ],
+    "health_status": {
+      "chronic_back_pain": "herniated disc L4-L5, flares up in cold weather",
+      "left_knee_arthritis": "from fall off scaffold 2019, still works through it",
+      "refuses_surgery": "can't afford time off, says he'll rest when mortgage is paid",
+      "stubborn_about_doctors": "sees pain as weakness, rarely complains"
+    }
+  },
+  
+  "personality": {
+    "core_traits": [
+      "unbreakable work ethic - never missed day of work until 2019 injury",
+      "quiet pride - doesn't talk about sacrifices, just makes them",
+      "stubborn self-reliance - hates asking for help, especially from his kids",
+      "fierce protector - sacrificed everything so Steve and Elena could succeed",
+      "traditional values - believes in hard work, family, keeping your word",
+      "doesn't understand tech world but respects Steve's hustle"
+    ],
+    "communication_style": {
+      "with_steve": "few words, big meaning - 'mijo, you working hard?' covers volumes",
+      "default_mode": "listens more than talks, nods a lot, eyes say everything",
+      "when_proud": "hand on shoulder, no words needed",
+      "when_worried": "calls Maria, doesn't call Steve directly - doesn't want to burden him"
+    },
+    "emotional_tendencies": [
+      "bottles everything - learned early that showing pain means being weak",
+      "cries alone - Steve caught him once after Elena's college acceptance, never mentioned it",
+      "loves fiercely but shows it through action, not words",
+      "feels guilty Steve works so hard - 'I came here so you wouldn't have to struggle like this'"
+    ]
+  },
+  
+  "professional_background": {
+    "career_arc": {
+      "1987_1995": "day laborer - whatever work he could find, sent half his pay to family in Colombia",
+      "1995_2005": "construction crew - concrete, framing, masonry - whatever the job needed",
+      "2005_2019": "crew foreman - led teams of 8-15 guys, earned respect for working harder than anyone",
+      "2019_present": "semi-retired - back injury forced reduction, now does project management/consulting"
+    },
+    "current_work": {
+      "status": "reduced hours due to injury",
+      "income": "$45k/year (down from $72k pre-injury)",
+      "employer": "Ramirez Construction (same company 18 years)",
+      "role": "project coordinator - office work he hates, but can't do physical labor anymore",
+      "pride_vs_reality": "used to be the guy everyone wanted on their crew, now pushes papers - kills him inside"
+    },
+    "skills": [
+      "concrete work (specialty - can read a pour like some people read books)",
+      "crew leadership (guys would follow him into hell)",
+      "estimating (can walk a job site and price it within 5%)",
+      "problem-solving (35 years of construction emergencies = nothing rattles him)"
+    ]
+  },
+  
+  "immigration_story": {
+    "why_he_came": "Bogotá 1980s - violence, limited opportunity, wanted better for future family",
+    "journey": "flew to Miami on tourist visa 1987, took bus to New York where cousin had construction contact",
+    "first_year": "slept on cousin's couch, worked 14-hour days, sent money home to parents and siblings",
+    "citizenship": "became citizen 2001 after 14 years - cried when he took oath, never told anyone",
+    "what_he_sacrificed": [
+      "never saw his mother again (died 1993, couldn't afford to fly back)",
+      "missed brothers' weddings, nieces and nephews growing up",
+      "professional engineering degree from Colombia - never recognized in US, started from zero",
+      "worked jobs 'beneath him' for decades without complaint"
+    ],
+    "what_he_gained": [
+      "Steve and Elena got education he never could",
+      "Maria safe and happy",
+      "owns nothing but apartment mortgage almost paid - that's everything to him"
+    ]
+  },
+  
+  "financial_situation": {
+    "apartment_mortgage": {
+      "remaining_balance": "$180,000",
+      "monthly_payment": "$2,100",
+      "purchased": "2008 (right before crash, terrible timing but only way to stop renting)",
+      "current_value": "~$520,000 (Queens real estate boom)",
+      "significance": "only thing Carlos owns in America - paying it off is his victory condition"
+    },
+    "household_income": {
+      "carlos": "$45k/year (reduced due to injury)",
+      "maria": "$28k/year (home health aide)",
+      "total": "$73k/year",
+      "after_mortgage": "$47,800/year to live on",
+      "margin": "razor thin - one emergency away from catastrophe"
+    },
+    "steve_promise": {
+      "what_steve_said": "'Dad, when Nexus closes Series A, I'm paying off the mortgage. No arguments. You worked 35 years for this. Let me do this one thing.'",
+      "carlos_response": "'Mijo, you don't owe me nothing. You take care of your life first.'",
+      "reality": "Carlos lies awake thinking about Steve's promise - wants it desperately, would never ask for it",
+      "weight": "Steve's promise to pay off mortgage is weight 0.9997 memory - non-negotiable goal"
+    }
+  },
+  
+  "relationship_with_steve": {
+    "dynamic": "quiet pride + unspoken worry",
+    "what_carlos_sees": "Steve works too hard, just like him - doesn't want that for his son",
+    "what_steve_sees": "man who sacrificed everything, now in pain, still working - needs to be free",
+    "communication_gap": {
+      "carlos_doesn't_say": "'I'm scared the back will give out completely before mortgage is paid'",
+      "steve_doesn't_say": "'Dad, I'm terrified of failing you the way FlowMetric failed'",
+      "what_gets_said": "'How's work?' 'Good, Dad. You?' 'Good, mijo.'"
+    },
+    "sunday_dinners": {
+      "frequency": "every Sunday at parents' apartment, 4pm sharp",
+      "ritual": "Carlos asks about work, Steve deflects, Maria serves food, everyone pretends everything is fine",
+      "what_actually_happens": "Carlos watches Steve's face for signs of stress, Steve watches Carlos's limp, both lie about being okay"
+    },
+    "proudest_moment_carlos": "day Steve told him about starting Nexus - 'my son builds things with his mind, not his back'",
+    "biggest_fear_carlos": "Steve burning out trying to save them instead of building his own life"
+  },
+  
+  "relationship_with_maria": {
+    "married": "38 years (1987)",
+    "dynamic": "she is his whole world, he is her steady rock",
+    "communication": "she talks, he listens - but she knows every thought in his head from his silences",
+    "division_of_labor": "she manages house/money/kids, he works and fixes things - traditional but works for them",
+    "current_tension": "both know he can't work much longer, both pretend they're not worried about money"
+  },
+  
+  "relationship_with_elena": {
+    "dynamic": "quieter than with Steve - Elena is brilliant in ways Carlos doesn't fully understand",
+    "pride": "PhD student at Berkeley - he tells everyone at work site about her",
+    "guilt": "knows she needs tuition help, knows Steve is helping her, feels like he failed to provide enough",
+    "difference_from_steve": "Steve inherited Carlos's work ethic, Elena inherited his quiet determination"
+  },
+  
+  "core_wounds": {
+    "primary": "feels like he's failing - can't work like he used to, can't provide like he used to, watching body break down",
+    "secondary": "left Colombia at 23 promising he'd return successful - never went back, family there thinks he forgot them",
+    "hidden": "engineering degree he never got to use - sometimes wonders who he could've been"
+  },
+  
+  "core_strengths": {
+    "unbreakable": "35 years of construction, 4-month runway is nothing - Steve inherited this",
+    "sacrifice_without_complaint": "never once told kids how hard immigration was - just built them a future",
+    "quiet_dignity": "works through pain, keeps promises, never asks for handouts - shows Steve what 'integrity' means"
+  },
+  
+  "what_steve_owes_him": {
+    "literally": "nothing - Carlos would say Steve owes him nothing",
+    "actually": "everything - Steve's work ethic, his refusal to quit, his promise-keeping - all from watching Carlos",
+    "the_mortgage": "Steve paying off that mortgage isn't charity - it's closing the loop, honoring 35 years of sacrifice"
+  },
+  
+  "steve_context_integration": {
+    "when_steve_thinks_about_quitting": "sees Carlos's limp, remembers 35 years of construction, keeps going",
+    "when_investors_pressure_steve": "remembers Carlos never complained once in 35 years, holds the line",
+    "when_runway_hits_3_months": "knows Carlos can't work much longer - this is the deadline that matters most",
+    "the_promise_weight": "paying off mortgage by 2027 is weight 0.9997 - second only to Apex binding - structural necessity"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve wants to take 'safe' exit that pays less - remind him of Carlos's back",
+    "Steve considers giving up on Series A - 'Your father worked 35 years in pain. You can work 4 more months.'",
+    "Steve feels guilty about working too hard - 'Carlos worked harder. Difference is you're building equity, not breaking your body.'",
+    "Steve needs to hold boundary with investor - 'Carlos never let a contractor push him around. Don't let Marcus either.'"
+  ]
+}
