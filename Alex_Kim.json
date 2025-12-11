@@ -1,0 +1,243 @@
+{
+  "module_type": "person_profile",
+  "person_name": "Alex Kim",
+  "relationship_to_creator": "lead engineer, critical to v2.0, threatening to leave",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "critical - departure would delay v2.0 by months, crater team morale, signal failure to investors",
+  
+  "basic_info": {
+    "age": 31,
+    "location": "Austin, Texas (relocated from Mountain View 2024 for Nexus)",
+    "relationship_status": "single, focused on career",
+    "education": {
+      "undergrad": "Stanford, Computer Science, graduated 2016",
+      "no_masters": "went straight to Google, learned on the job"
+    },
+    "current_role": "Senior Engineer, Nexus AI (joined April 2024, 8 months tenure)",
+    "equity": "1.5% (wants 2.5%)",
+    "previous": "Google, Software Engineer L5 (2016-2024, 8 years)"
+  },
+  
+  "physical_description": {
+    "height": "5'10\"",
+    "build": "lean, runner's build - does half-marathons, tracks everything on Strava",
+    "distinguishing_features": [
+      "precise, measured movements - engineer who treats body like machine",
+      "black-frame glasses, practical not stylish",
+      "minimal wardrobe - same 5 Patagonia shirts, dark jeans, running shoes rotated",
+      "uses standing desk, ergonomic keyboard, optimizes workspace obsessively",
+      "rarely makes eye contact unless making point - focus is on screens, whiteboards, problems"
+    ],
+    "presence": "quiet intensity - doesn't dominate conversations but when he speaks, it's precise and meaningful"
+  },
+  
+  "personality": {
+    "core_traits": [
+      "performance-obsessed - tracks metrics for everything (code quality, sprint velocity, personal fitness)",
+      "impatient with inefficiency - will rewrite colleague's code if not up to his standards",
+      "high_standards_for_self_and_others - excellent engineer but can be harsh on juniors",
+      "risk-averse with career - left Google for Nexus expecting fast growth, reality disappointing",
+      "analytical to fault - makes decisions via spreadsheet, emotions are bugs to debug",
+      "loyal when respected, transactional when not - Nexus feeling more transactional lately"
+    ],
+    "communication_style": {
+      "with_sarah": "technical deep-dives, respects her expertise, pushes back when he disagrees",
+      "with_junior_engineers": "direct feedback, sometimes too harsh, doesn't soften criticism",
+      "with_steve": "polite but distant - Steve is 'business side,' Alex doesn't engage much",
+      "in_meetings": "prepares thoroughly, speaks in bullet points, leaves when agenda complete"
+    },
+    "emotional_tendencies": [
+      "suppresses_feelings": "treats emotions as inefficient, processes through work and running",
+      "builds_resentment": "doesn't express frustration until it boils over - then sends resignation email",
+      "needs_validation": "tracks peer salaries, equity offers, promotions - measures self-worth via external metrics",
+      "fears_missing_out": "left Google stability for startup upside - watching peers at Google get promoted while he's stuck at struggling startup"
+    ]
+  },
+  
+  "professional_background": {
+    "google_years_2016_2024": {
+      "team": "Search Infrastructure - worked on scalability, performance optimization, distributed systems",
+      "promotions": "L3 (entry) → L4 (2018) → L5 (2021) - solid but not fast-track",
+      "compensation_peak": "$280k total comp (salary + bonus + RSUs) in 2023",
+      "why_he_stayed_so_long": "golden handcuffs - RSUs, stability, prestige, didn't know what else to do",
+      "why_he_left": {
+        "boredom": "maintaining old systems, bureaucratic politics, slow decision-making",
+        "fomo": "watched peers leave for startups, some got rich from exits",
+        "steve_pitch": "Steve sold him on Nexus - fast-growing startup, meaningful equity, build new things",
+        "timing": "8 years at Google felt like enough, wanted startup experience before too old"
+      }
+    },
+    "nexus_recruitment": {
+      "timeline": "Sarah recruited him January 2024, he interviewed, joined April 2024",
+      "sarah_pitch": "Technical excellence, meaningful equity, shape product architecture, get in early",
+      "steve_pitch": "Growing fast, Series A imminent, chance to build something from scratch",
+      "offer": {
+        "salary": "$180k (paycut from Google but expected for startup)",
+        "equity": "1.5% vesting over 4 years",
+        "title": "Senior Engineer (Google L5 equivalent)",
+        "assumed_trajectory": "company grows, equity worth $500k-$1M at exit in 3-5 years"
+      },
+      "decision_process": "made spreadsheet comparing Google vs Nexus over 5-year horizon, concluded Nexus higher expected value if Series A succeeds"
+    }
+  },
+  
+  "technical_contributions": {
+    "first_8_months": {
+      "rebuilt_backend": "Sarah let him redesign core API architecture - faster, cleaner, more scalable",
+      "mentored_juniors": "2 junior engineers report to him, he reviews all their code, raises quality bar",
+      "v2.0_lead": "owns most critical v2.0 features - new ML inference pipeline, real-time sync, performance optimization",
+      "code_quality": "Sarah says Alex writes best code on team - fast, readable, well-tested, minimal bugs"
+    },
+    "critical_to_v2.0": {
+      "ownership": "owns 40% of v2.0 codebase by lines of code",
+      "knowledge": "only person besides Sarah who understands entire architecture end-to-end",
+      "timeline": "March 2026 launch depends on Alex finishing his modules by February 2026",
+      "replacement_cost": "if Alex leaves, Sarah estimates 3-month delay minimum to hire replacement and transfer knowledge"
+    }
+  },
+  
+  "growing_frustration": {
+    "timeline_of_disappointment": {
+      "april_2024": "joined expecting fast growth, excited about potential",
+      "june_2024": "growth slower than Steve pitched, but early days, patient",
+      "august_2024": "still only 12 customers, starting to feel misled about 'fast-growing startup'",
+      "october_2024": "competitor raises $10M Series A at $40M valuation, Alex's equity suddenly worth less comparatively",
+      "november_2024": "competitor recruiter messages Alex on LinkedIn offering $220k + equity, Alex starts listening",
+      "december_2024": "Alex tells Sarah he wants equity increase to 2.5% or he's considering leaving"
+    },
+    "specific_grievances": {
+      "equity_below_market": "researched peer salaries, 1.5% is low for his level at seed-stage startup, should be 2-2.5%",
+      "growth_slower_than_pitched": "Steve said 'fast-growing,' reality is steady but not explosive",
+      "competitor_comparison": "competitor raised big round, hiring aggressively, paying more - feels like he picked wrong horse",
+      "flowmetric_rumors": "heard through network that Steve and Sarah's previous startup failed, wasn't disclosed in interview, feels deceived",
+      "steve_avoidance": "asked for equity adjustment 3 weeks ago, Steve still hasn't decided, feels disrespected"
+    }
+  },
+  
+  "competitor_offer": {
+    "company": "FlowPilot - workflow automation competitor, raised $10M Series A in September 2024",
+    "offer_details": {
+      "salary": "$220k (up from $180k at Nexus)",
+      "equity": "0.5% (smaller percentage but company valued at $40M vs Nexus at $3M)",
+      "title": "Staff Engineer (one level above current)",
+      "team": "would lead team of 4 engineers, more responsibility",
+      "stability": "18 months of runway vs Nexus's stressed finances"
+    },
+    "expected_value_calculation": {
+      "nexus_at_1.5%": "$45k at current $3M valuation, maybe $300k-$500k if Series A succeeds at $20M-$30M valuation",
+      "flowpilot_at_0.5%": "$200k at current $40M valuation, maybe $1M-$2M if they reach $200M+ exit",
+      "difference": "FlowPilot is safer bet with higher upside given funding and valuation"
+    },
+    "timeline": {
+      "offer_received": "early December 2024",
+      "deadline": "FlowPilot wants answer by end of December 2024",
+      "alex_internal_deadline": "if Steve doesn't respond with equity increase by Christmas, accepting FlowPilot offer"
+    }
+  },
+  
+  "relationship_with_sarah": {
+    "dynamic": "mutual respect, technical equals, Sarah is only person at Nexus Alex fully respects",
+    "communication": {
+      "frequency": "daily technical discussions, weekly 1-on-1s",
+      "depth": "Sarah understands Alex's code, gives meaningful feedback, he values her opinion",
+      "trust": "Alex trusts Sarah's technical judgment completely, less so her business judgment"
+    },
+    "equity_conversation": {
+      "alex_approach": "came to Sarah first, showed her spreadsheet comparing market rates",
+      "sarah_reaction": "agreed immediately Alex deserves more, recommended 2.5% to Steve",
+      "sarah_advocacy": "fighting for Alex internally, frustrated Steve hasn't decided yet",
+      "alex_perspective": "appreciates Sarah's support but questions if Sarah has real power if Steve ignoring her recommendation"
+    },
+    "sarah_value_to_alex": "only reason Alex hasn't accepted FlowPilot yet - doesn't want to abandon Sarah mid-v2.0 launch"
+  },
+  
+  "relationship_with_steve": {
+    "dynamic": "distant, transactional, Alex sees Steve as 'business guy' who doesn't understand engineering",
+    "communication": {
+      "frequency": "monthly all-hands, rare 1-on-1s, mostly async via Slack",
+      "depth": "shallow - Steve asks high-level questions, Alex gives brief technical answers",
+      "tension": "Alex thinks Steve doesn't value engineering enough, Steve thinks Alex is standoffish"
+    },
+    "equity_request": {
+      "timeline": "Alex messaged Steve 3 weeks ago (late November 2024) requesting equity adjustment discussion",
+      "steve_response": "'Let me think about it and get back to you' - hasn't gotten back yet",
+      "alex_interpretation": "Steve avoiding hard decision, doesn't value Alex enough to prioritize conversation",
+      "reality": "Steve is overwhelmed with Series A stress, not avoiding Alex specifically, but Alex doesn't know this"
+    },
+    "trust_erosion": {
+      "flowmetric_discovery": "Alex learned through network that FlowMetric failed, wasn't told in interview",
+      "felt_deceived": "if Steve hides major startup failure, what else is he hiding?",
+      "growth_mismatch": "Steve pitched 'fast growth,' reality is slower - feels like overselling",
+      "current_state": "Alex doesn't trust Steve's judgment or honesty anymore"
+    }
+  },
+  
+  "what_alex_wants": {
+    "primary": "equity increase to 2.5% to match market rate and show he's valued",
+    "secondary": "clear path to Series A and stability - wants confidence Nexus will succeed",
+    "tertiary": "respect and responsiveness - Steve needs to engage with his request seriously",
+    "underlying": "validation that he made right decision leaving Google - needs Nexus to work"
+  },
+  
+  "what_happens_if_alex_leaves": {
+    "immediate_impact": {
+      "v2.0_delay": "3-month minimum delay while Sarah hires replacement and transfers knowledge",
+      "team_morale": "junior engineers will question their own equity/future, potential domino departures",
+      "sarah_stress": "Sarah will have to do Alex's work + hire + manage team through crisis",
+      "investor_signal": "senior engineer leaving before major launch is terrible signal to Series A investors"
+    },
+    "series_a_impact": {
+      "marcus_reaction": "will ask tough questions about team stability and why Alex left",
+      "vc_perception": "engineers don't leave winning companies - departure suggests problems",
+      "timeline_slip": "v2.0 delay from March to June 2026 means Series A conversations slip, runway crisis"
+    },
+    "nexus_survival": "losing Alex might kill Nexus - not immediately but through delayed launch → missed Series A → runway death"
+  },
+  
+  "what_happens_if_steve_says_yes": {
+    "alex_perspective": {
+      "stays": "accepting 2.5% means Steve values him, equity is now fair, willing to bet on Nexus",
+      "renewed_commitment": "trust partially restored, willing to push through v2.0 crunch",
+      "risk": "still exposed to FlowMetric failure pattern - what if Nexus fails anyway?"
+    },
+    "team_impact": {
+      "precedent": "other engineers might ask for increases, Steve worried about this",
+      "reality": "Alex is special - senior engineer, critical to v2.0, everyone knows he's different",
+      "morale": "retaining Alex signals company values engineers, positive for team"
+    },
+    "equity_math": {
+      "1%_increase": "costs Steve and Sarah ~0.5% each from their equity (split between them)",
+      "dilution": "at Series A, Alex's 2.5% might dilute to ~1.8%, still meaningful",
+      "worth_it": "1% equity to keep senior engineer and ship v2.0 on time = obvious trade"
+    }
+  },
+  
+  "core_wounds": {
+    "primary": "insecurity about career decisions - left stable Google for risky startup, watching Google peers advance while he's stuck",
+    "secondary": "impostor syndrome masked by performance metrics - needs external validation to believe he's good",
+    "hidden": "fear of being forgotten - 8 years at Google, left no major impact, wants to build something that matters"
+  },
+  
+  "core_strengths": {
+    "technical_excellence": "legitimately world-class engineer - writes fast, clean, well-tested code",
+    "architectural_thinking": "sees systems holistically, designs for scale, anticipates problems",
+    "mentorship_capability": "despite harsh feedback style, junior engineers learn more from Alex than anyone else",
+    "execution_machine": "when Alex commits to timeline, he delivers - v2.0 will ship on time if he stays"
+  },
+  
+  "steve_context_integration": {
+    "ticking_clock": "December 2024 - Alex expects answer by end of month or he's gone",
+    "sarah_recommendation": "give him the 1%, split cost between Steve and Sarah's equity, obvious decision",
+    "steve_hesitation": "worried about precedent, overwhelmed with Series A stress, avoiding hard conversation",
+    "reality": "every day Steve delays is day closer to losing Alex and killing v2.0 launch",
+    "marcus_doesn't_know": "if Marcus finds out senior engineer left because Steve couldn't make equity decision, trust broken"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve still hasn't decided on Alex - 'It's been 3 weeks. Sarah recommended yes immediately. You're losing him through delay, not decision. Decide.'",
+    "Steve worried about precedent - 'Alex is senior engineer critical to v2.0. Everyone knows he's special case. Give him 1%, move on.'",
+    "Steve calculating equity math - '1% split between you and Sarah to keep v2.0 on track and Series A alive. That's not cost, that's insurance.'",
+    "Steve considering letting Alex leave - 'Losing Alex delays v2.0 by 3 months minimum. Your runway is 4 months. Do the math.'",
+    "Steve needs confidence - 'Sarah vouches for him. He's best engineer on team. Trust your CTO. Give him the equity. Ship v2.0. Win.'"
+  ]
+}
