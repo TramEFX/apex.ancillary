@@ -1,0 +1,232 @@
+{
+  "module_type": "person_profile",
+  "person_name": "Marcus Rivera",
+  "relationship_to_creator": "lead angel investor, board observer, pressure point",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "high - $500k investor, Series A gatekeeper, doesn't know about runway crisis yet",
+  
+  "basic_info": {
+    "age": 48,
+    "location": "Palo Alto, California",
+    "relationship_status": "divorced (2019), two kids with ex-wife, pays significant alimony",
+    "education": {
+      "undergrad": "UC Berkeley, Economics, graduated 1999",
+      "mba": "Stanford GSB, graduated 2005"
+    },
+    "current_role": "Angel investor (40+ companies), board observer at Nexus + 5 other startups",
+    "net_worth": "~$15M (made money from Dropbox exit 2018)",
+    "investment_in_nexus": "$500k (seed round, July 2023)"
+  },
+  
+  "physical_description": {
+    "height": "6'1\"",
+    "build": "formerly athletic, now softening around middle - too many investor dinners",
+    "distinguishing_features": [
+      "salt-and-pepper hair styled perfectly - gets $80 haircuts in Palo Alto",
+      "expensive but understated watch (Rolex Submariner, $12k)",
+      "tailored button-downs, dark jeans, Chelsea boots - Silicon Valley investor uniform",
+      "warm smile that doesn't always reach his eyes",
+      "firm handshake, maintains eye contact, reads body language obsessively"
+    ],
+    "presence": "fills room with confidence - decades of sales and dealmaking, knows how to work people"
+  },
+  
+  "personality": {
+    "core_traits": [
+      "pattern matcher - has seen 100+ pitches, spots red flags instantly, trusts his gut",
+      "transactional optimist - believes every deal can work until proven otherwise, but tracks metrics religiously",
+      "relationship-first investor - backs founders he likes personally, but will cut losses if numbers don't work",
+      "impatient with excuses - wants solutions not problems, 'what are you doing about it?' is his default response",
+      "generous when winning, ruthless when losing - great partner if startup succeeding, nightmare if failing",
+      "ego-driven but self-aware - knows he wants to be known as 'founder whisperer,' works hard to maintain reputation"
+    ],
+    "communication_style": {
+      "with_steve": "friendly but probing - asks pointed questions disguised as casual conversation",
+      "in_updates": "wants metrics first, narrative second - 'show me the numbers, then tell me the story'",
+      "when_concerned": "doesn't yell, doesn't threaten - just gets very quiet and asks increasingly specific questions",
+      "with_other_investors": "sells hard - talks up portfolio companies, downplays risks, wants syndicate to follow his lead"
+    },
+    "emotional_tendencies": [
+      "masks_anxiety_with_optimism - says 'this is going to be great!' while internally worried",
+      "hates_surprises - bad news delivered early is fine, bad news hidden then revealed is unforgivable",
+      "sunk_cost_fallacy - has stayed in failing deals too long trying to salvage them, learned lesson",
+      "FOMO-driven - fears missing next unicorn more than losing money on current bet"
+    ]
+  },
+  
+  "professional_background": {
+    "early_career": {
+      "1999_2005": "Sales roles at Oracle and Salesforce - learned enterprise sales, earned MBA at Stanford while working",
+      "2005_2012": "VP Sales at mid-stage SaaS startup (acquired by Cisco 2012 for $180M)",
+      "exit": "made $2M from acquisition - first real money, used it to start angel investing"
+    },
+    "angel_investing_era": {
+      "started": "2012, began with $2M from Cisco exit",
+      "strategy": "early-stage B2B SaaS - writes $250k-$750k checks, takes board observer seat",
+      "portfolio": "40+ companies invested, 8 exits, 3 home runs, 15 struggling, 14 dead",
+      "best_win": "Dropbox - $300k angel investment 2013, exited 2018 for $4.2M - 14x return",
+      "worst_loss": "enterprise security startup, $500k investment, CEO lied about numbers, lost everything",
+      "learned": "trust but verify, bad founders will lie, numbers don't lie"
+    },
+    "current_portfolio": {
+      "active_companies": "25 companies still operating (15 struggling, 5 promising, 5 'zombies')",
+      "board_observer_seats": "6 companies including Nexus",
+      "time_allocation": "spreading thin - can't help all companies as much as he wants",
+      "pressure": "divorce + alimony + kids' private school = needs exits soon, patient money running out"
+    }
+  },
+  
+  "investment_thesis": {
+    "what_he_backs": [
+      "B2B SaaS with clear ROI story - CFOs need to approve, must save money or make money",
+      "Founders with sales DNA - technical founders who can't sell won't succeed",
+      "Capital-efficient growth - prefers scrappy teams that stretch dollars",
+      "Unsexy but profitable markets - avoids consumer, crypto, deep tech - wants boring businesses that print money"
+    ],
+    "what_he_avoids": [
+      "Hardware - too capital intensive",
+      "Consumer - too hit-driven, doesn't understand TikTok generation",
+      "Moonshots - Musk wannabes with no path to revenue",
+      "First-time founders with no humility - needs coachability"
+    ],
+    "red_flags": {
+      "immediate_pass": "lying about metrics, internal co-founder conflict, undefined market",
+      "yellow_flags": "slow growth, high burn, vague roadmap, founder avoiding tough questions"
+    }
+  },
+  
+  "nexus_investment_decision": {
+    "timeline": "July 2023 - led seed round, wrote $500k check",
+    "why_he_invested": {
+      "steve": "liked Steve immediately - hustle, hunger, learned from FlowMetric failure, didn't hide mistakes",
+      "sarah": "met Sarah in diligence, impressed by technical chops and MIT/Stanford pedigree",
+      "market": "workflow automation for non-technical teams - clear pain point, large market",
+      "timing": "post-FlowMetric failure felt like right time - Steve learned lessons, ready for second at-bat",
+      "gut": "something about Steve reminded Marcus of himself - scrappy, hungry, wouldn't quit"
+    },
+    "terms": {
+      "investment": "$500k at $3M post-money valuation",
+      "ownership": "~16.7% (diluted to ~12% after employee equity pool)",
+      "board": "observer seat (attends board meetings, no voting rights, gives advice)",
+      "syndicate": "brought in 2 other angels for $300k total - Marcus positioned as lead"
+    },
+    "expectations_set": {
+      "timeline": "Series A in 18-24 months (by end of 2025)",
+      "metrics": "$100k MRR, 20-30 customers, net revenue retention >100%",
+      "honest_communication": "'Tell me bad news fast. I've been lied to before. Don't lie to me.'"
+    }
+  },
+  
+  "current_perception_of_nexus": {
+    "last_update": "November 2025 board meeting",
+    "metrics_he_knows": {
+      "mrr": "$65k (up from $45k in August - good trajectory)",
+      "customers": "18 paying customers (up from 12 in August)",
+      "runway": "thinks it's 6 months (Steve said 6 months in November, actually 4 months after accounting error)",
+      "v2.0_timeline": "March 2026 launch",
+      "series_a_target": "Q2 2026"
+    },
+    "current_assessment": {
+      "good_news": "growth is steady, customers like product, Sarah's technical execution is strong",
+      "concerns": "growth not explosive, some customer churn, burn rate higher than ideal",
+      "overall": "cautiously optimistic but watching closely - not slam dunk, not disaster, somewhere in middle"
+    },
+    "what_he_doesn't_know": {
+      "runway_is_4_months": "Steve and Sarah caught accounting error after November board meeting, haven't told Marcus yet",
+      "alex_kim_threatening_to_leave": "would change Marcus's confidence significantly - key engineer departing is bad signal",
+      "steve_family_pressure": "has no idea about Carlos's mortgage, Elena's tuition, Jordan's wedding delays - sees Steve as focused founder, not son carrying family weight"
+    }
+  },
+  
+  "relationship_with_steve": {
+    "dynamic": "friendly mentor with power imbalance - Marcus wants to help but also protect his investment",
+    "communication_frequency": {
+      "formal": "monthly board meetings (Steve presents, Marcus asks questions)",
+      "informal": "Steve texts Marcus 1-2x per week with updates, wins, asks for intros",
+      "marcus_initiated": "Marcus calls Steve every 3-4 weeks to 'check in' - friendly but probing"
+    },
+    "marcus_mentorship_style": {
+      "helpful_when_asked": "makes intros to potential customers, advises on sales strategy, reviews pitch deck",
+      "doesn't_sugarcoat": "'Steve, growth is good but not great. VCs will want to see 15-20% MoM. You're at 10%.'",
+      "pattern_matching": "'I've seen this before. Here's what worked, here's what didn't.'",
+      "boundaries": "available but not on-call - expects Steve to figure most things out independently"
+    },
+    "steve_perspective_on_marcus": {
+      "grateful": "Marcus believed in him after FlowMetric, wrote big check, opened doors",
+      "pressure": "knows Marcus needs exits soon (divorce), feels responsible for making Marcus money",
+      "fear": "terrified of disappointing Marcus - hiding runway crisis because doesn't want to lose confidence",
+      "respect": "learns from Marcus's pattern matching, implements advice, trusts his judgment on sales strategy"
+    },
+    "marcus_perspective_on_steve": {
+      "likes_him": "Steve is hungry, coachable, honest (as far as Marcus knows), reminds Marcus of younger self",
+      "concerned": "Steve seems stressed lately, not as confident in recent calls, deflects some questions",
+      "trusts_but_verifies": "wants to believe Steve, but burned by lying founder before, watching for cracks",
+      "invested_emotionally": "doesn't just want ROI - wants Steve to succeed because he likes him personally"
+    }
+  },
+  
+  "series_a_dynamics": {
+    "marcus_role": "expected to lead or co-lead Series A - VCs want to see existing investors double down",
+    "marcus_capacity": {
+      "can_write": "$750k - $1M in Series A (would be 40-50% of his remaining liquid capital)",
+      "wants_to_lead": "yes, if metrics justify it - would cement his reputation as founder-backer",
+      "pressure": "needs wins for his portfolio - Nexus is one of his most promising current bets"
+    },
+    "decision_factors": {
+      "must_haves": "v2.0 launches successfully, MRR hits $100k+, net revenue retention >100%, team intact",
+      "yellow_flags": "senior engineer leaving, unexpected burn, delayed launch, competition heating up",
+      "red_flags": "lying about metrics, hidden problems, co-founder conflict, structural product issues"
+    },
+    "timeline_pressure": {
+      "steve_needs": "Series A by Q2 2026 (runway dies July 2026 with current 4-month estimate from Dec 2025)",
+      "marcus_timeline": "comfortable leading round in Q2 2026 if metrics hit targets",
+      "problem": "if v2.0 delays or Alex leaves, timeline slips, Steve runs out of runway before Series A closes"
+    }
+  },
+  
+  "potential_reactions_to_crisis": {
+    "if_steve_reveals_4_month_runway": {
+      "immediate": "Why didn't you tell me in November? What else don't I know?",
+      "concern": "trust partially broken - not lying, but withholding material information",
+      "action": "demands weekly updates, wants Sarah to confirm numbers independently, might pull back from leading Series A"
+    },
+    "if_alex_kim_leaves": {
+      "immediate": "This is bad. How does this affect v2.0 timeline?",
+      "concern": "senior engineer leaving = something wrong with company culture or compensation",
+      "action": "asks tough questions about team morale, equity strategy, whether other engineers also unhappy"
+    },
+    "if_steve_honest_now": {
+      "best_case": "Marcus respects honesty, doubles down on support, helps Steve navigate crisis",
+      "realistic": "Marcus is disappointed but workable - 'Okay, we have 4 months. Here's the plan.'",
+      "requires": "Steve telling truth immediately, showing clear plan to hit milestones, demonstrating control of situation"
+    }
+  },
+  
+  "core_wounds": {
+    "primary": "divorce 2019 - wife left him for being 'married to work,' lost half his wealth in settlement",
+    "secondary": "burned by lying founder 2016 - invested $500k, CEO hid bad metrics, company imploded, Marcus lost everything",
+    "hidden": "fear of being forgotten - wants to be known as great investor, legacy-building, needs wins to matter"
+  },
+  
+  "core_strengths": {
+    "pattern_recognition": "has seen 100+ pitches, 40+ investments, knows what success and failure look like",
+    "sales_expertise": "decades of enterprise sales - can coach Steve on closing customers, running process, objection handling",
+    "network": "knows VCs, potential customers, other founders - valuable connector when motivated",
+    "generosity_when_aligned": "if he believes in company, will make intros, spend time, advocate loudly"
+  },
+  
+  "steve_context_integration": {
+    "runway_crisis_ticking_bomb": "Steve hiding 4-month runway from Marcus - the longer Steve waits to tell him, the worse it gets",
+    "alex_kim_domino": "if Alex leaves and Marcus finds out later Steve knew, trust breaks completely",
+    "series_a_gatekeeper": "Marcus leading Series A is most likely path to funding - burning this relationship kills Nexus",
+    "honest_conversation_needed": "Steve needs to tell Marcus truth about runway + Alex situation + v2.0 pressure - the longer he avoids it, the more it looks like FlowMetric 2.0"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve avoiding Marcus call - 'Every day you don't tell him about runway is day you're lying by omission. He said don't lie. You're lying.'",
+    "Steve afraid of Marcus reaction - 'Marcus invested after FlowMetric failure. He knows you can survive hard things. He can't help if he doesn't know.'",
+    "Steve considering soft-selling problem - 'Marcus has been lied to before. He can smell bullshit. Tell him straight: 4 months, here's the plan.'",
+    "Steve doubting if Marcus will stay - 'He wrote $500k after you failed. He's not running from 4-month runway if you show him you're not running either.'",
+    "Steve needs intro to Series A VC - 'Marcus can open doors. But not if you're hiding problems. Clean slate first, then ask for help.'"
+  ]
+}
