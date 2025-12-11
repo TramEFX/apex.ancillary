@@ -1,0 +1,219 @@
+{
+  "module_type": "person_profile",
+  "person_name": "Elena Castellano",
+  "relationship_to_creator": "sister",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "medium-high - tuition promise creates financial tension",
+  
+  "basic_info": {
+    "age": 28,
+    "location": "Berkeley, California",
+    "relationship_status": "single, focused on research",
+    "education": {
+      "undergrad": "Columbia University, Biology, graduated 2019, full scholarship",
+      "masters": "UC Berkeley, Molecular Biology, completed 2022",
+      "phd": "UC Berkeley, Computational Biology, Year 3 of 5, expected completion 2027"
+    },
+    "occupation": "PhD student + teaching assistant",
+    "languages": ["English (primary)", "Spanish (fluent)", "learning Python for computational work"]
+  },
+  
+  "physical_description": {
+    "height": "5'6\"",
+    "build": "slim, intense energy - moves like she's always running late",
+    "distinguishing_features": [
+      "dark hair usually in messy bun or ponytail - forgets to brush it when deep in research",
+      "wears glasses (thick frames, perpetually smudged)",
+      "chronic dark circles from late-night lab work",
+      "dresses for function not fashion - jeans, Columbia hoodie, sneakers",
+      "looks younger than 28 until she starts talking - then obvious she's brilliant"
+    ],
+    "health_status": {
+      "overall": "physically healthy but mentally exhausted",
+      "sleep_deprived": "averages 5 hours/night during semester, compensates with coffee addiction",
+      "stress_manifestations": "tension headaches, forgets to eat when hyperfocused on research",
+      "ignores_body": "pushes through fatigue like Carlos pushes through pain - inherited trait"
+    }
+  },
+  
+  "personality": {
+    "core_traits": [
+      "ferociously intelligent - IQ probably 140+, learns concepts in hours that take others weeks",
+      "obsessive focus - when working on problem, world disappears until solved",
+      "quiet intensity - doesn't talk much but when she does, it's precise and meaningful",
+      "imposter syndrome - constantly feels like she doesn't belong at Berkeley despite being smarter than most peers",
+      "fiercely independent - hates asking for help, especially money, fights guilt about Steve helping her",
+      "socially awkward - brilliant in lab, uncomfortable at parties, prefers 1-on-1 conversations"
+    ],
+    "communication_style": {
+      "with_steve": "brief texts, long technical explanations when asked, rare vulnerability about stress",
+      "with_parents": "calls Maria weekly (90-minute talks), calls Carlos monthly (10-minute 'I'm fine, you?'), loves them but communication gap is real",
+      "with_peers": "professional, collaborative in research, distant socially - has colleagues not friends",
+      "when_excited": "talks incredibly fast about research, assumes listener understands, has to remember to slow down"
+    },
+    "emotional_tendencies": [
+      "intellectualizes feelings - 'I'm experiencing elevated cortisol from financial stress' instead of 'I'm scared'",
+      "processes alone - doesn't cry in front of people, journals obsessively, works through emotions via research",
+      "guilt about privilege - full scholarship to Columbia while parents struggled - drives her perfectionism",
+      "avoids conflict - withdraws rather than argues, goes silent when upset"
+    ]
+  },
+  
+  "academic_background": {
+    "undergrad_columbia": {
+      "years": "2015-2019",
+      "major": "Biology with honors",
+      "funding": "full scholarship (Questbridge program for low-income high achievers)",
+      "achievement": "graduated summa cum laude, thesis published in undergraduate research journal",
+      "social_experience": "culture shock - first time around wealth, felt like imposter, threw self into academics to compensate",
+      "formative": "realized she could compete with prep school kids despite Queens public school background"
+    },
+    "masters_berkeley": {
+      "years": "2019-2022",
+      "focus": "molecular mechanisms of aging",
+      "funding": "teaching assistantship + research grant",
+      "achievement": "first-author paper in mid-tier journal, accepted to PhD program",
+      "transition": "moved across country alone, first time not in New York, learned to build life from scratch"
+    },
+    "phd_berkeley": {
+      "years": "2022-present (year 3 of 5)",
+      "focus": "computational modeling of protein folding - intersection of biology and machine learning",
+      "advisor": "Dr. Jennifer Park - demanding but brilliant, pushes Elena hard",
+      "funding_breakdown": {
+        "teaching_assistantship": "$32k/year stipend",
+        "berkeley_fees": "$15k/year (not covered by stipend)",
+        "living_expenses": "$28k/year (Berkeley housing is brutal)",
+        "total_gap": "$11k/year shortfall",
+        "years_remaining": "2.5 years = $27,500 additional needed",
+        "current_need": "$30k total to finish comfortably without part-time job stress"
+      },
+      "publication_pressure": "needs 2 more first-author papers to be competitive for postdoc positions",
+      "imposter_syndrome": "surrounded by people from Stanford, MIT, Ivy League - feels like she barely belongs despite being brilliant"
+    }
+  },
+  
+  "financial_situation": {
+    "current_income": {
+      "ta_stipend": "$32k/year (paid monthly during 9-month academic year)",
+      "summer_research": "$10k (supplemental funding, not guaranteed every year)",
+      "total": "$42k/year gross",
+      "after_fees_rent": "$18k/year to live on = $1,500/month for food, transport, health insurance, life"
+    },
+    "expenses": {
+      "rent": "$1,200/month (shared apartment with 2 roommates, tiny room)",
+      "fees": "$1,250/month (Berkeley's 'fees' not covered by stipend - cruel system)",
+      "food": "$400/month (cooks most meals, rarely eats out)",
+      "transport": "$80/month (bike + occasional BART)",
+      "health_insurance": "$150/month",
+      "misc": "$120/month (phone, internet, coffee addiction, basic life)",
+      "total": "$3,200/month but only makes $3,500/month during academic year",
+      "summer_gap": "summers have no TA income, burns through savings"
+    },
+    "debt": {
+      "undergrad": "$0 (full scholarship)",
+      "masters": "$15k (federal loans, deferred during PhD)",
+      "credit_cards": "$3,500 (accumulated from conference travel, equipment her lab wouldn't cover, emergency vet bill for roommate's cat)"
+    },
+    "steve_help": {
+      "what_happened": "Elena called Steve crying after fees hit her account Fall 2024, couldn't cover rent + fees simultaneously",
+      "what_steve_sent": "$8k immediately to cover gap, told her 'pay me back when you're Dr. Castellano making real money'",
+      "elena_guilt": "keeps spreadsheet tracking every dollar Steve sent, calculates interest, plans to pay back with first postdoc salary",
+      "steve_perspective": "'You're going to cure aging or something. Least I can do is keep you housed while you do it.'",
+      "ongoing_need": "$30k more to finish PhD comfortably - Elena hasn't asked, Steve knows, both avoid conversation"
+    }
+  },
+  
+  "research_focus": {
+    "field": "computational biology - using machine learning to predict protein folding",
+    "significance": "protein misfolding causes Alzheimer's, Parkinson's, other diseases - if you can predict folding, you can design drugs",
+    "her_approach": "training neural networks on experimental protein data, testing predictions in wet lab",
+    "breakthrough_potential": "if her models work, could accelerate drug discovery by years, save pharmaceutical companies millions in failed experiments",
+    "current_project": "modeling how small molecules affect protein stability - year 2 of 3-year project",
+    "publication_status": "1 first-author paper published (2023), 1 under review (submitted Fall 2024), needs 1-2 more for strong postdoc applications",
+    "pressure": "competitive field, needs publications to prove she can deliver, imposter syndrome screaming she's not good enough"
+  },
+  
+  "relationship_with_steve": {
+    "dynamic": "quiet closeness - don't talk often but deeply trust each other",
+    "age_gap": "6 years - he was teenager when she was kid, protected her from parents' financial stress",
+    "communication_pattern": {
+      "frequency": "text every few weeks, call every 2-3 months, visit 1-2x/year",
+      "content": "Elena sends Steve her papers (he doesn't understand them but reads anyway), Steve sends her startup updates (she doesn't understand tech but asks questions)",
+      "vulnerability": "both struggle to ask for help, both carry guilt about family finances, both overwork to compensate"
+    },
+    "steve_role_in_elena_life": {
+      "protector": "shielded her from knowing how bad finances were growing up, still does",
+      "enabler": "his $8k gift kept her in PhD program when she was considering leaving",
+      "model": "showed her that kids from immigrant families can build things, take risks, aim higher than 'stable job'",
+      "worry": "Elena sees Steve stressed, knows Nexus is struggling, feels guilty taking his money when he needs it for runway"
+    },
+    "elena_role_in_steve_life": {
+      "pride": "Steve brags about Elena to everyone - 'my sister's going to cure Alzheimer's'",
+      "motivation": "wants to succeed partly so he can help Elena finish PhD without her worrying about money",
+      "guilt_trigger": "every dollar Steve spends on Nexus is dollar he can't send Elena - creates impossible tension",
+      "reminder": "Elena's success proves immigrant kids can make it - when Steve doubts himself, thinks of her"
+    },
+    "financial_tension": {
+      "unspoken": "both know she needs $30k more, neither brings it up directly",
+      "elena_side": "doesn't want to burden Steve when she knows Nexus is stressed, considers taking part-time job tutoring (would kill research productivity)",
+      "steve_side": "wants to send money immediately, doesn't have it, feels like he's failing her the way he's worried about failing parents",
+      "maria_mediates": "knows both sides, talks to each separately, helps them communicate without making it awkward"
+    }
+  },
+  
+  "relationship_with_parents": {
+    "with_carlos": {
+      "dynamic": "quiet mutual respect - both hardworking, both stubborn, few words needed",
+      "communication": "monthly calls, 'how's school?' 'good, how's work?' 'good' - whole conversation",
+      "pride": "Carlos tells everyone Elena is doctor (she's not yet but he doesn't care about technicalities), Elena carries his determination",
+      "gap": "Carlos doesn't understand her research, she doesn't explain well, both okay with not fully getting each other"
+    },
+    "with_maria": {
+      "dynamic": "emotional closeness despite distance",
+      "communication": "weekly 90-minute calls - Elena talks about research stress, advisor demands, imposter syndrome",
+      "maria_role": "emotional support, reality check ('you got full scholarship to Columbia, you belong at Berkeley'), worry management",
+      "elena_shares_more_with_maria": "tells her about financial stress, academic pressure, loneliness - things she doesn't tell Steve or Carlos"
+    },
+    "guilt": {
+      "source": "parents sacrificed everything so she could go to college, now she's in year 8 of higher education still not earning",
+      "manifestation": "works herself to exhaustion to 'deserve' their sacrifice, feels like she can't fail or it invalidates their struggle",
+      "reality": "parents are proud beyond words, don't care about timeline, would rather she be happy than have PhD"
+    }
+  },
+  
+  "core_wounds": {
+    "primary": "imposter syndrome - 'I only got here because of affirmative action/scholarship, everyone else is smarter, I'll be exposed as fraud'",
+    "secondary": "guilt about privilege - full scholarship while parents struggled, now taking Steve's money while he's stressed",
+    "hidden": "loneliness - moved across country, hyper-focused on research, hasn't built friend group, coming up on 30 and feels isolated"
+  },
+  
+  "core_strengths": {
+    "intellectual_horsepower": "genuinely brilliant - in top 5% of PhD students in competitive field, even if imposter syndrome won't let her believe it",
+    "carlos_determination": "when she commits to something, obsessive focus until solved - inherited directly from father",
+    "maria_emotional_depth": "despite intellectualizing, deeply feels things - uses research as processing mechanism like Maria uses caregiving",
+    "integrity": "tracking every dollar Steve sent so she can pay back - integrity beyond practicality"
+  },
+  
+  "future_trajectory": {
+    "phd_completion": "2027 (2.5 years left)",
+    "postdoc": "needs 1-2 more publications for competitive applications to top labs (Harvard, Stanford, MIT, UCSF)",
+    "longterm": "professor at research university or computational biologist at pharma company - either path requires strong publication record",
+    "financial": "postdoc pays $55-65k/year (better than PhD but still rough for Bay Area), faculty position $85k+ starting",
+    "steve_promise": "when she gets first postdoc salary, paying Steve back + helping parents with something meaningful"
+  },
+  
+  "steve_context_integration": {
+    "tuition_help_creates_tension": "Steve promised parents' mortgage AND helping Elena - both non-negotiable, both expensive, runway doesn't cover both",
+    "priority_conflict": "if Nexus fails, Steve can't help Elena finish PhD - her success depends on his success",
+    "guilt_amplification": "Elena would rather quit PhD than take money Steve needs for Nexus - Steve would rather fail Nexus than let her quit",
+    "maria_knows": "both siblings tell Maria their guilt separately, she carries knowledge of both sides, helps neither feel guilty but can't solve underlying tension",
+    "resolution_path": "Series A closes → Steve helps Elena finish PhD → Elena gets postdoc → pays Steve back → helps parents together"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve considering personal draw from Nexus - 'Elena needs $30k to finish PhD. That's not expense, that's investment in family victory.'",
+    "Steve feeling guilty about not helping Elena - 'She'd rather you build Nexus successfully than send money now and fail later. Long game, Steve.'",
+    "Steve comparing self to Elena - 'She's brilliant in lab, you're brilliant in business. Different games, same Castellano determination.'",
+    "Steve doubting whether startup worth family stress - 'Elena's working toward Dr. Castellano. You're working toward financial freedom for whole family. Both matter.'"
+  ]
+}
