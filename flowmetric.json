@@ -1,0 +1,248 @@
+{
+  "module_type": "business_venture",
+  "company_name": "FlowMetric",
+  "status": "shut down March 2022, context for understanding Steve's decisions at Nexus",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "high - explains Steve's fears, drives his urgency, informs how he leads Nexus",
+  
+  "company_overview": {
+    "legal_name": "FlowMetric, Inc.",
+    "founded": "January 2020",
+    "founders": ["Steve Castellano (CEO)", "Sarah Chen (CTO)"],
+    "location": "San Francisco, California",
+    "incorporation": "Delaware C-Corp",
+    "industry": "B2B SaaS, Analytics",
+    "stage": "Seed-funded, never reached Series A",
+    "duration": "26 months (January 2020 - March 2022)",
+    "outcome": "Shut down, returned remaining capital to investors, learned hard lessons"
+  },
+  
+  "elevator_pitch": {
+    "one_line": "ML-powered analytics for B2B SaaS companies - predict churn, optimize pricing, automate insights.",
+    "problem": "B2B SaaS companies have tons of data but lack time/expertise to extract insights. They're guessing at churn risk, pricing strategies, expansion opportunities.",
+    "solution": "FlowMetric ingested customer data, used ML models to predict churn risk, suggest pricing changes, identify expansion opportunities, automate reporting.",
+    "target_customer": "B2B SaaS companies (Series A/B), 50-500 customers, $1M-10M ARR, selling to RevOps leaders and heads of customer success"
+  },
+  
+  "what_went_wrong": {
+    "core_issue": "Never found product-market fit - customers said 'interesting' but didn't renew",
+    
+    "specific_problems": {
+      "ml_black_box": {
+        "issue": "ML models made predictions but didn't explain WHY, customers didn't trust it",
+        "customer_feedback": "'This is cool but I don't understand how it works, can't make decisions based on it'",
+        "missed_lesson": "explainability matters more than accuracy for adoption"
+      },
+      "wrong_customer_segment": {
+        "issue": "targeted Series A/B companies who had data scientists, didn't need FlowMetric's insights",
+        "reality": "companies that needed help most (earlier stage) didn't have enough data to make ML work",
+        "catch_22": "big companies had solutions, small companies lacked data, middle market too small"
+      },
+      "complexity_killed_adoption": {
+        "issue": "setup required data engineering work, took weeks to onboard, high friction",
+        "customer_churn": "customers signed up excited, got frustrated during onboarding, churned before seeing value",
+        "lesson": "if product requires PhD to use, market is too small"
+      },
+      "pricing_mismatch": {
+        "charged": "$2k-5k/month depending on data volume",
+        "customer_willingness": "customers valued it at $500-1k/month - 'nice-to-have' not 'must-have'",
+        "unit_economics": "couldn't profitably serve customers at price they'd pay"
+      },
+      "slow_iteration": {
+        "issue": "ML models took weeks to train and deploy, couldn't iterate quickly on feedback",
+        "competitor_advantage": "simpler non-ML tools could ship features weekly, FlowMetric shipped quarterly",
+        "sarah_regret": "over-engineered from day one, should've built simpler MVP first"
+      }
+    }
+  },
+  
+  "timeline": {
+    "january_2020": {
+      "event": "Founded FlowMetric",
+      "context": "Steve left Stripe, Sarah quit Stripe, both confident after stable careers, startup was dream",
+      "jordan_context": "Jordan supported decision, they'd been dating 1 year, moved in together"
+    },
+    "march_2020": {
+      "event": "COVID hits, market crashes",
+      "impact": "fundraising became harder, customers cut budgets, harder to close sales",
+      "steve_decision": "pushed forward anyway, 'we'll figure it out'"
+    },
+    "july_2020": {
+      "event": "Closed $2M seed round",
+      "lead_investor": "mid-tier VC (not top-tier, settled for whoever would invest)",
+      "terms": "$2M at $8M post-money, Steve and Sarah each had ~30% post-raise",
+      "use_of_funds": "product development (70%), hiring (20%), marketing (10%)"
+    },
+    "august_2020_june_2021": {
+      "period": "Building product, first customers",
+      "team": "grew to 8 people - 5 engineers, 1 designer, 1 sales, 1 customer success",
+      "customers": "signed 12 pilot customers, mostly through Steve's network",
+      "excitement": "everyone thought they were building the future of B2B analytics"
+    },
+    "july_2021_december_2021": {
+      "period": "Warning signs emerge",
+      "churn": "5 of 12 customers churned, citing 'too complex' or 'didn't get value'",
+      "sales_stalled": "couldn't close new customers fast enough to replace churn",
+      "team_morale": "engineers frustrated by customers not understanding product",
+      "steve_stress": "working 80-hour weeks, trying to find PMF, denying reality"
+    },
+    "december_2021": {
+      "event": "Steve proposed to Jordan",
+      "context": "brief moment of calm, things seemed okay, planned Fall 2022 wedding",
+      "jordan_perspective": "Steve seemed stressed but said 'it's going well, just startup life'",
+      "reality": "Steve was lying to himself and Jordan, things were not going well"
+    },
+    "january_2022_march_2022": {
+      "period": "Death spiral",
+      "cash_position": "$200k left, 2-3 months of runway",
+      "series_a_attempts": "pitched 15 VCs, all passed, feedback: 'no clear PMF, growth too slow, churn too high'",
+      "team_departures": "2 engineers left for better-funded startups, morale collapsed",
+      "steve_breakdown": "barely sleeping, snapping at people, Jordan begged him to take care of himself"
+    },
+    "march_2022": {
+      "event": "Shut down FlowMetric",
+      "decision": "Steve and Sarah agreed they couldn't raise Series A, better to shut down gracefully than die slowly",
+      "returned_to_investors": "$150k (7.5% of $2M raised - terrible return but better than zero)",
+      "team": "laid off everyone, gave 2 weeks severance (all they could afford), helped them find new jobs",
+      "steve_emotional_state": "devastated, felt like complete failure, questioned if he was cut out for startups"
+    }
+  },
+  
+  "financial_summary": {
+    "total_raised": "$2M seed round",
+    "total_burned": "$1.85M over 26 months",
+    "average_monthly_burn": "$71k/month",
+    "peak_revenue": "$18k MRR (12 customers at $1.5k/month average)",
+    "peak_arr": "$216k (never got close to $1M ARR)",
+    "returned_to_investors": "$150k (7.5% return)",
+    "investor_loss": "$1.85M burned",
+    "steve_financial_loss": "2 years of salary opportunity cost ($300k+), equity worth $0, savings depleted"
+  },
+  
+  "team_impact": {
+    "employees_laid_off": 6,
+    "severance_provided": "2 weeks (all they could afford)",
+    "references_given": "Steve and Sarah wrote recommendations for everyone, helped them network into new jobs",
+    "team_sentiment": "disappointed but understood, no one blamed Steve/Sarah, market was hard",
+    "sarah_stayed_until_end": "could've left for FAANG jobs during decline, chose to stay with Steve, loyalty proven"
+  },
+  
+  "personal_impact_on_steve": {
+    "financial": {
+      "savings_depleted": "spent personal savings covering rent during low-salary months",
+      "debt": "took on $15k credit card debt to survive between FlowMetric and next job",
+      "equity_worthless": "30% of $0 = $0, 26 months of work for nothing financially"
+    },
+    "emotional": {
+      "identity_crisis": "defined himself as founder, failure felt like personal inadequacy",
+      "imposter_syndrome": "questioned if he deserved to be CEO, if he was just lucky before",
+      "relationship_strain": "Jordan supported him but wedding delayed, Steve distant and depressed",
+      "family_guilt": "Carlos working construction with bad back while Steve's startup failed - felt like he let family down"
+    },
+    "lessons_learned": {
+      "product_market_fit_critical": "no amount of execution fixes wrong product for wrong market",
+      "simple_beats_complex": "customers choose usable over powerful, even if powerful is better technically",
+      "extend_runway_when_possible": "should've cut burn earlier, extended runway to find PMF",
+      "honest_conversations_earlier": "should've admitted problems to investors/team earlier, tried to pivot sooner",
+      "mental_health_matters": "working 80-hour weeks doesn't help if you're building wrong thing, burnout killed judgment"
+    }
+  },
+  
+  "personal_impact_on_sarah": {
+    "professional": {
+      "sarah_built_entire_product": "architected system, wrote most code with 5 engineers, worked 70-hour weeks",
+      "sarah_guilt": "wonders if she over-engineered, should've pushed back on ML complexity, maybe simpler product would've worked",
+      "sarah_reputation": "2 years at 'failed startup' on resume, but tech was solid even if business wasn't"
+    },
+    "emotional": {
+      "failure_haunts_her": "perfectionist engineer, FlowMetric failure is professional wound",
+      "loyalty_to_steve": "stayed until end when could've left, that bond is unbreakable now",
+      "husband_david_tension": "David watched her burn out, was relieved when FlowMetric ended, worried when she joined Nexus"
+    }
+  },
+  
+  "investor_relationships": {
+    "lead_vc_relationship": {
+      "name": "Redpoint Ventures (fictional)",
+      "partner": "Jessica Lin",
+      "investment": "$1.5M of $2M round",
+      "outcome": "lost $1.35M, returned $112k",
+      "post_shutdown": "Jessica was understanding but wrote off FlowMetric, unlikely to invest in Steve again",
+      "lesson": "burning investor is reputational damage - even graceful shutdown doesn't erase loss"
+    },
+    "angel_investors": {
+      "total": "$500k from 6 angels",
+      "outcome": "lost $462.5k collectively, returned $37.5k",
+      "sentiment": "most were understanding, startup risk is real, no hard feelings",
+      "one_exception": "one angel publicly complained Steve 'wasted my money,' damaged Steve's reputation in SF"
+    },
+    "marcus_not_involved": "Marcus Rivera did NOT invest in FlowMetric - didn't know Steve then - learned about failure later when Steve pitched Nexus"
+  },
+  
+  "how_flowmetric_influences_nexus": {
+    "what_steve_changed": {
+      "validated_problem_first": "talked to 50+ ops managers before building Nexus, confirmed pain was real and people would pay",
+      "no_code_focus": "learned 'powerful but complex' loses to 'simple and usable,' made Nexus no-code from day one",
+      "simpler_tech": "no ML black boxes - adaptive learning is transparent, customers understand how it works",
+      "honest_with_investors": "told Marcus about FlowMetric failure upfront during Nexus pitch, no hiding past",
+      "smaller_team_longer": "kept Nexus team at 8 people for 18 months vs FlowMetric grew to 8 in 6 months, extended runway"
+    },
+    "what_steve_didnt_change": {
+      "still_works_80_hour_weeks": "same workaholic pattern, still not sustainable, Jordan experiencing same neglect",
+      "still_avoids_hard_conversations": "hasn't told Marcus about 4-month runway, hasn't decided on Alex equity - same avoidance pattern",
+      "still_optimistic_on_timelines": "v2.0 March 2026 is aggressive, same pattern of hoping engineering won't slip",
+      "still_defines_self_by_startup": "Nexus failure would break Steve same way FlowMetric did - identity hasn't diversified"
+    }
+  },
+  
+  "flowmetric_as_steve_wound": {
+    "core_wound": "Failure proved he's not as capable as he thought - imposter syndrome is real now",
+    "secondary_wound": "Let down investors, team, Sarah, Jordan, family - guilt about wasted trust and time",
+    "hidden_wound": "2 years of life for nothing to show - turning 34 with $0 equity and credit card debt",
+    "drives_nexus_urgency": "Must prove FlowMetric was anomaly not pattern, must succeed to validate those 2 years meant something",
+    "fear_of_repetition": "Terrified of making same mistakes, sometimes paralyzed by over-analyzing decisions to avoid FlowMetric 2.0"
+  },
+  
+  "flowmetric_as_sarah_wound": {
+    "core_wound": "Built perfect technical architecture for wrong product - engineering excellence wasn't enough",
+    "secondary_wound": "Should've pushed back harder on complexity, told Steve simpler was better",
+    "hidden_wound": "Watched team suffer from her technical decisions - feels responsible for 6 people losing jobs",
+    "drives_nexus_perfectionism": "v2.0 must be technically excellent AND simple - overcompensating for FlowMetric mistakes",
+    "fear_of_repetition": "What if she's building wrong thing again? What if Nexus is FlowMetric 2.0?"
+  },
+  
+  "why_marcus_invested_despite_flowmetric": {
+    "steve_honesty": "Steve told Marcus about FlowMetric upfront, explained what went wrong, what he learned",
+    "lessons_applied": "Marcus saw Steve changed approach - validated PMF first, simpler product, smaller team",
+    "sarah_staying": "Sarah coming back after FlowMetric showed Steve worth betting on again",
+    "timing": "2023 market was better than 2020-2022 COVID chaos, Marcus believed timing was right",
+    "gut": "Marcus liked Steve personally, believed second-time founders who learned lessons often succeed",
+    "risk": "Marcus knew this was riskier bet than first-time founder with no baggage, but believed in redemption arc"
+  },
+  
+  "alex_kim_learned_about_flowmetric": {
+    "timeline": "October 2024 - 6 months after joining Nexus",
+    "how_he_found_out": "heard through Silicon Valley network, someone mentioned 'Steve's previous startup failed'",
+    "steve_didnt_disclose": "Steve and Sarah didn't mention FlowMetric in Alex's interview - felt like deception",
+    "alex_interpretation": "'If they hide major failure, what else are they hiding?' - trust partially broken",
+    "reality": "Steve didn't hide maliciously, just didn't think to mention it - assumed people knew",
+    "impact_on_equity_request": "Alex's doubt about Nexus success partly driven by FlowMetric failure pattern concern"
+  },
+  
+  "jordan_lived_through_flowmetric": {
+    "timeline": "dated through entire FlowMetric journey (2020-2022)",
+    "support_provided": "held Steve through stress, encouraged him, made space for grief when it shut down",
+    "cost_to_jordan": "2 years of Steve working 80-hour weeks, feeling like roommate not partner",
+    "first_wedding_delay": "Fall 2022 wedding postponed because Steve was recovering from FlowMetric shutdown",
+    "current_fear": "Nexus feels like FlowMetric 2.0 - same 80-hour weeks, same neglect, same 'just a little longer' promises",
+    "breaking_point": "if Nexus fails and Steve wants to do startup #3, Jordan probably leaves - can't do this cycle forever"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve doubting himself - 'FlowMetric taught you what doesn't work. Nexus has $65k MRR and real customers. You learned. Apply it.'",
+    "Steve avoiding hard decisions - 'FlowMetric died partly because you avoided hard pivots early. Don't repeat that mistake with Alex or Marcus.'",
+    "Steve comparing to FlowMetric - 'FlowMetric had no PMF and $18k MRR peak. Nexus has PMF and $65k MRR growing. Different game. Stop pattern-matching.'",
+    "Steve paralyzed by fear - 'Yes, FlowMetric failed. That means you know what failure looks like. You're not there yet. Move.'",
+    "Steve feeling guilty - 'FlowMetric investors knew the risk. You shut down gracefully, returned capital, helped team land jobs. You did it right. Focus on Nexus.'"
+  ]
+}

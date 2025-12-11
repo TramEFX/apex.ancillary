@@ -1,0 +1,300 @@
+{
+  "module_type": "business_venture",
+  "company_name": "Nexus AI",
+  "status": "active, Series A stage, 4-month runway crisis",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "critical - Steve's primary focus, survival determines everything",
+  
+  "company_overview": {
+    "legal_name": "Nexus AI, Inc.",
+    "founded": "June 2023",
+    "founders": ["Steve Castellano (CEO)", "Sarah Chen (CTO)"],
+    "location": "Austin, Texas",
+    "incorporation": "Delaware C-Corp",
+    "industry": "B2B SaaS, Workflow Automation",
+    "stage": "Seed-funded, preparing Series A",
+    "age": "18 months (as of December 2024)"
+  },
+  
+  "elevator_pitch": {
+    "one_line": "Nexus automates repetitive workflows for non-technical teams using AI that learns how your team actually works.",
+    "problem": "Non-technical teams (HR, operations, sales ops, customer success) spend 40% of their time on repetitive tasks: data entry, status updates, report generation, cross-tool copying. Existing automation tools require technical expertise or rigid templates that break when processes change.",
+    "solution": "Nexus uses ML to observe how teams work, then suggests and implements automations without requiring coding or rigid setup. The AI learns your team's patterns and adapts when workflows change.",
+    "differentiation": [
+      "No-code setup - non-technical users can implement automations in minutes",
+      "Adaptive learning - AI adjusts when processes change, doesn't break like Zapier",
+      "Context-aware - understands team workflows holistically, not just individual task automation",
+      "Built for operations teams - designed for HR, sales ops, customer success, not just engineers"
+    ],
+    "target_customer": "Mid-market companies (50-500 employees), operations teams drowning in repetitive work, buying champions are typically ops managers or directors"
+  },
+  
+  "product_details": {
+    "v1.0_launched_sept_2023": {
+      "features": [
+        "Workflow observation - connects to team's tools (Slack, Notion, Airtable, Salesforce, etc.), observes patterns",
+        "Automation suggestions - AI identifies repetitive tasks, suggests automations",
+        "One-click implementation - non-technical users approve suggested automations without coding",
+        "Basic analytics - tracks time saved, automations running, team adoption"
+      ],
+      "tech_stack": "Python backend (FastAPI), React frontend, PostgreSQL + Redis, AWS deployment",
+      "architecture": "Microservices, event-driven, built for scale by Sarah",
+      "performance": "handles 10k automation runs per day currently, architected for 1M+",
+      "customer_feedback": "love the concept, want it faster and more accurate, occasionally suggests irrelevant automations"
+    },
+    "v2.0_launching_march_2026": {
+      "timeline": "3 months away as of December 2024",
+      "major_improvements": [
+        "3x faster ML inference - re-architected pipeline, rebuilt from ground up",
+        "Better accuracy - new models trained on 18 months of customer data, 40% fewer irrelevant suggestions",
+        "Real-time sync - changes propagate across tools instantly instead of 5-minute delay",
+        "Improved UI - complete redesign based on user feedback, cleaner and more intuitive",
+        "Team collaboration features - shared automation libraries, approval workflows for managers"
+      ],
+      "technical_complexity": "significant rebuild, not just feature additions - new ML models, new infrastructure, new frontend",
+      "alex_kim_critical": "Alex owns 40% of v2.0 codebase, losing him would delay launch by 3+ months",
+      "investor_importance": "Series A investors want to see v2.0 traction before committing - this is the product that needs to work"
+    }
+  },
+  
+  "business_metrics_current": {
+    "as_of": "December 2024",
+    "mrr": "$65,000 (up from $45k in August 2024)",
+    "arr": "$780,000 (MRR × 12)",
+    "customers": {
+      "total": 18,
+      "added_last_quarter": 6,
+      "churned_last_quarter": 2,
+      "net_new": 4
+    },
+    "average_contract_value": "$43,200/year ($3,600/month)",
+    "customer_breakdown": {
+      "smb_50_150_employees": 8,
+      "mid_market_150_500_employees": 10,
+      "no_enterprise_yet": "haven't sold to 500+ employee companies yet"
+    },
+    "net_revenue_retention": "95% (5% churn, not ideal but not catastrophic)",
+    "gross_margin": "85% (typical for SaaS, hosting costs low relative to revenue)",
+    "growth_rate": "10-12% MoM (good but not explosive, VCs want 15-20%)",
+    "cash_in_bank": "$280,000 (December 2024)",
+    "monthly_burn": "$70,000",
+    "runway": "4 months (until April 2026) - accounting error discovered after November board meeting"
+  },
+  
+  "customer_profile": {
+    "ideal_customer": "Mid-market company (150-300 employees), operations-heavy, lots of repetitive workflows, non-technical teams, $1M-10M revenue",
+    "buying_champion": "Operations Manager or Director who's drowning in manual work, has budget authority, wants team to focus on strategic work not data entry",
+    "sales_cycle": "60-90 days from demo to close (typical for mid-market B2B)",
+    "customer_success_stories": {
+      "customer_1": "HR ops team at 200-person company, automated employee onboarding workflows, saved 15 hours/week",
+      "customer_2": "Sales ops at SaaS company, automated CRM data entry and reporting, saved 20 hours/week",
+      "customer_3": "Customer success team, automated ticket routing and status updates, 25% faster response time"
+    },
+    "churn_reasons": [
+      "Switched to competitor with better accuracy (1 customer)",
+      "Budget cuts, not product issue (1 customer)"
+    ]
+  },
+  
+  "team_structure": {
+    "total_headcount": 8,
+    "founders": {
+      "steve_castellano": {
+        "title": "CEO",
+        "equity": "40%",
+        "salary": "$120k/year (below market, conserving cash)",
+        "focus": ["fundraising", "sales", "customer relationships", "business strategy"]
+      },
+      "sarah_chen": {
+        "title": "CTO",
+        "equity": "35%",
+        "salary": "$150k/year (also below market)",
+        "focus": ["all technical decisions", "engineering team leadership", "product development"]
+      }
+    },
+    "engineering": {
+      "alex_kim": {
+        "title": "Senior Engineer",
+        "equity": "1.5% (wants 2.5%)",
+        "salary": "$180k/year",
+        "status": "threatening to leave, critical to v2.0"
+      },
+      "junior_engineers": {
+        "count": 2,
+        "titles": "Software Engineer I/II",
+        "equity": "0.3-0.5% each",
+        "salaries": "$110k-130k/year",
+        "report_to": "Alex Kim"
+      }
+    },
+    "business": {
+      "sales_rep": {
+        "name": "Chris Anderson",
+        "title": "Account Executive",
+        "equity": "0.5%",
+        "salary": "$80k base + $40k commission (OTE $120k)",
+        "hired": "August 2024",
+        "performance": "closed 4 of 6 new customers last quarter, good hire"
+      },
+      "customer_success": {
+        "name": "Taylor Robinson",
+        "title": "Customer Success Manager",
+        "equity": "0.4%",
+        "salary": "$90k/year",
+        "hired": "July 2024",
+        "performance": "managing all 18 customers, retention solid, overworked"
+      },
+      "steve_also_sells": "Steve closes larger deals, Chris handles mid-market, together closed 6 deals last quarter"
+    },
+    "equity_pool_remaining": "~12% reserved for future hires and Series A dilution"
+  },
+  
+  "financial_situation": {
+    "seed_round_july_2023": {
+      "total_raised": "$1.2M",
+      "lead_investor": "Marcus Rivera ($500k)",
+      "other_angels": "$700k from 8 other angel investors",
+      "valuation": "$3M post-money",
+      "use_of_funds": "product development (60%), hiring (25%), sales & marketing (10%), operations (5%)"
+    },
+    "current_cash_position_dec_2024": {
+      "cash_in_bank": "$280,000",
+      "monthly_burn": "$70,000",
+      "burn_breakdown": {
+        "salaries": "$55k/month (8 people)",
+        "aws_infrastructure": "$8k/month",
+        "software_tools": "$4k/month (Slack, GitHub, Notion, etc.)",
+        "office_rent": "$1.5k/month (small office in Austin)",
+        "misc": "$1.5k/month (legal, accounting, insurance)"
+      },
+      "revenue": "$65k MRR but invoices paid 30-60 days out, cash collection lags",
+      "runway": "4 months (until April 2026)",
+      "accounting_error": "Steve thought it was 6 months in November board meeting, Sarah caught error after meeting, haven't told Marcus yet"
+    },
+    "revenue_trajectory": {
+      "current_mrr": "$65k",
+      "target_for_series_a": "$100k MRR (Marcus's stated threshold)",
+      "gap": "$35k MRR to close in 6 months",
+      "requires": "closing 8-10 new customers at $3.6k/month average = aggressive but possible with v2.0 launch"
+    }
+  },
+  
+  "series_a_planning": {
+    "target_timeline": "Q2 2026 (April-June)",
+    "target_raise": "$3-5M",
+    "target_valuation": "$20-30M post-money (needs strong metrics to justify)",
+    "lead_investor_expected": "Marcus Rivera likely to co-lead if metrics hit targets, needs institutional VC to co-lead",
+    "investor_requirements": {
+      "marcus_stated": "$100k MRR, 20-30 customers, net revenue retention >100%, v2.0 launched successfully",
+      "typical_vc_wants": "$100k+ MRR, 20%+ MoM growth, <10% churn, clear path to $1M ARR, strong unit economics"
+    },
+    "current_gaps": {
+      "mrr": "$65k vs $100k target (need $35k more)",
+      "growth_rate": "10-12% MoM vs 15-20% VCs want",
+      "net_revenue_retention": "95% vs >100% target (need negative churn through upsells)",
+      "v2.0_not_launched": "investors want to see v2.0 traction before committing"
+    },
+    "steve_pitch_strategy": {
+      "narrative": "'We learned from FlowMetric failure - this time we found real product-market fit, v2.0 proves we can execute, ready to scale'",
+      "demo_v2.0": "show speed and accuracy improvements, customer testimonials, pipeline of expansion revenue",
+      "team_strength": "Sarah's technical excellence, Alex's contributions (if he stays), sales traction with Chris"
+    }
+  },
+  
+  "competitive_landscape": {
+    "direct_competitors": {
+      "flowpilot": {
+        "description": "workflow automation for operations teams, raised $10M Series A Sept 2024",
+        "valuation": "$40M",
+        "strengths": "well-funded, aggressive hiring, enterprise sales team",
+        "weaknesses": "slower product, less adaptive AI, more expensive",
+        "threat_level": "high - just poached Alex Kim with $220k offer"
+      },
+      "workstream_ai": {
+        "description": "AI workflow automation, raised $15M Series A 2023",
+        "strengths": "strong brand, more customers (50+), good marketing",
+        "weaknesses": "requires technical setup, not truly no-code",
+        "threat_level": "medium - different customer segment (more technical)"
+      }
+    },
+    "indirect_competitors": {
+      "zapier": "workflow automation king but requires technical expertise, Nexus is 'AI-first Zapier for non-technical teams'",
+      "make_integromat": "similar to Zapier, visual automation builder but steep learning curve",
+      "notion_automation": "built-in to Notion, limited to Notion ecosystem"
+    },
+    "nexus_differentiation": "adaptive AI that learns team patterns, no-code for non-technical users, faster setup than competitors, built specifically for operations teams"
+  },
+  
+  "key_risks": {
+    "runway_crisis": {
+      "description": "4 months of cash, Series A needs to close by July 2026 or company dies",
+      "mitigation": "v2.0 must launch on time (March 2026), need strong Q1 sales, Marcus and VCs must commit by May 2026",
+      "steve_hiding_from_marcus": "Marcus thinks runway is 6 months, actually 4 months, Steve needs to tell him ASAP"
+    },
+    "alex_kim_departure": {
+      "description": "Senior engineer threatening to leave, departure delays v2.0 by 3+ months",
+      "mitigation": "Give Alex 1% more equity, Steve needs to decide immediately",
+      "deadline": "End of December 2024, Alex has competing offer from FlowPilot"
+    },
+    "v2.0_launch_risk": {
+      "description": "March 2026 launch is critical, any delay kills Series A timeline",
+      "dependencies": "Alex staying, no major technical issues, testing completed by Feb 2026",
+      "sarah_won't_compromise": "will delay launch if quality not there, even if Steve disagrees"
+    },
+    "slow_growth": {
+      "description": "10-12% MoM growth is good but not explosive, VCs want 15-20%",
+      "mitigation": "v2.0 should accelerate growth with better product, hire second sales rep in Q1 2026",
+      "concern": "if growth doesn't accelerate post-v2.0, Series A becomes much harder"
+    },
+    "competition_heating_up": {
+      "description": "FlowPilot raised $10M, hiring aggressively, could outspend Nexus in market",
+      "mitigation": "Nexus tech is better (Sarah's architecture > theirs), need to execute faster",
+      "danger": "if FlowPilot gets dominant market position, Nexus becomes 'also-ran'"
+    }
+  },
+  
+  "flowmetric_lessons_applied": {
+    "what_went_wrong_at_flowmetric": [
+      "Never found product-market fit - customers said 'cool' but didn't renew",
+      "Built ML black box - customers didn't trust it, wanted explainability",
+      "Burned too fast - $2M lasted 18 months, didn't extend runway when possible",
+      "Avoided hard conversations - didn't pivot when early signs showed problems"
+    ],
+    "what_steve_and_sarah_changed_at_nexus": [
+      "Validated problem first - talked to 50+ ops managers before building, confirmed pain was real",
+      "No-code focus - learned that 'powerful but complex' loses to 'simple and usable'",
+      "Slower burn - extended runway by keeping team small, salaries below market",
+      "Earlier customer feedback - shipped v1.0 in 3 months, iterated based on real usage",
+      "Honest with investors - told Marcus about FlowMetric failure upfront, no hiding"
+    ],
+    "what_they_still_struggle_with": [
+      "Same 80-hour weeks - Steve working just as hard as FlowMetric, hasn't learned work-life balance",
+      "Optimistic timelines - v2.0 timeline is aggressive, hoping engineering doesn't slip",
+      "Avoiding_hard_conversations - Steve still hasn't told Marcus about runway, hasn't decided on Alex equity"
+    ]
+  },
+  
+  "steve_emotional_relationship_to_nexus": {
+    "why_it_matters": "Second chance after FlowMetric failure - if Nexus fails too, Steve might give up on startups forever",
+    "family_pressure": "Carlos's mortgage ($180k), Elena's tuition ($30k), Jordan's patience - all depend on Nexus success",
+    "identity": "Steve defines self-worth by Nexus progress - bad week = 'I'm failing,' good week = 'we're going to make it'",
+    "marcus_approval": "Marcus believed in Steve after FlowMetric, Steve feels personally responsible for making Marcus money",
+    "fear": "Terrified of repeating FlowMetric failure pattern, sometimes paralyzed by trying to avoid same mistakes",
+    "hope": "Genuinely believes Nexus is different - better product, better timing, better team - this time can work"
+  },
+  
+  "victory_conditions": {
+    "minimum_viable": "Close Series A by Q2 2026, extend runway, keep team intact, survive to fight another day",
+    "real_success": "$100k+ MRR, 30+ customers, Series A at $25M+ valuation, pay Steve and Sarah market-rate salaries, hire more engineers",
+    "steve_personal_victory": "Pay off Carlos's mortgage ($180k), help Elena finish PhD ($30k), marry Jordan without delaying again, prove FlowMetric failure wasn't permanent",
+    "ultimate": "Exit in 3-5 years for $50M+, Steve makes $15M+, can finally rest, family financially secure for life"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve avoiding hard decisions - 'Nexus has 4 months of runway. Every day you don't decide on Alex or tell Marcus is day closer to death. Decide.'",
+    "Steve doubting if Nexus different from FlowMetric - 'FlowMetric had no PMF. Nexus has 18 paying customers and $65k MRR. Different game. Execute.'",
+    "Steve overwhelmed by pressure - 'Carlos worked 35 years for $180k goal. You have 4 months for $3M raise. Time scales differently but both are survival.'",
+    "Steve needs confidence boost - 'Sarah's v2.0 architecture is world-class. Alex's code is excellent. You hired Chris who closes. Team is strong. Lead them.'",
+    "Steve considering safe exit - 'You started Nexus to finish what FlowMetric started. Quitting now validates failure. Finish the fight.'"
+  ]
+}
