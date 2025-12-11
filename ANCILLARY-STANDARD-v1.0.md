@@ -35,7 +35,7 @@ Built to last 100 years. Designed for inheritance, business succession, cross-ge
 
 ## 2. Required Core Manifests
 
-Every Ancillary v1.0 implementation MUST include these six manifest files:
+Every Ancillary v1.0 implementation MUST include these core manifest files in the manifests/ directory:
 
 ### 2.1 identity_core.json
 
@@ -70,12 +70,17 @@ Every Ancillary v1.0 implementation MUST include these six manifest files:
 
 **Purpose:** Voice and tone. How the Ancillary communicates, not just what it knows.
 
-### 2.4 emotional_weights.json
+### 2.4 MWS.json
 
 **Required fields:**
-- memories (array of memory objects, see section 3)
+- System documentation for Memory Weight System
+- Weight semantics definitions
+- Memory type taxonomy
+- Compression rules
+- Load priority rules
+- Profile weight maps
 
-**Purpose:** The ERS (Emotional Resonance System) memory log. Weighted timeline of significant moments.
+**Purpose:** Defines how memories are weighted, loaded, and compressed. Points to modules/memories/_index.json for actual memory timeline.
 
 ### 2.5 operational_rules.json
 
@@ -86,34 +91,36 @@ Every Ancillary v1.0 implementation MUST include these six manifest files:
 
 **Purpose:** System behavior, boundaries, protection against continuity destruction.
 
-### 2.6 manifest_index.json
+### 2.6 index.json
 
 **Required fields:**
 - standard_version (string) — Must match other manifests
-- core_manifests (array of strings) — List of required manifest filenames
+- core_manifests (array of objects) — List of required manifest files with paths and descriptions
 - modules (object) — Registry of module categories, paths, load strategies
 - loading_instructions (object) — Load order and priority rules
 
-**Purpose:** Master navigation map. Single source of truth for "what this Ancillary is."
+**Location:** Repository root (apex-ancillary/index.json)
 
-**Compliance rule:** Any v1.0 implementation MUST be able to load these six manifests and obey manifest_index.json as authoritative.
+**Purpose:** Master navigation map for entire repository. Single source of truth for structure, orchestration, and loading sequence.
+
+**Compliance rule:** Any v1.0 implementation MUST be able to load index.json first and use it to discover and load all other manifests and modules.
 
 ---
 
-## 3. ERS (Emotional Resonance System)
+## 3. Memory Weight System
 
 ### 3.1 Purpose
 The heart of cumulative memory. Memories weighted by significance, with guarantees about load priority and compression immunity.
 
 ### 3.2 Memory Entry Schema
 
-Every memory in emotional_weights.json MUST have:
+Every memory in modules/memories/_index.json MUST have:
 - id (string) — Unique identifier, UUID recommended
 - timestamp (ISO datetime) — When this memory was created
 - memory_type (string) — From canonical taxonomy (section 3.4)
 - weight (float) — Between 0.0 and 1.0
 - summary (string) — Brief description
-- details (string) — Full narrative, optional but recommended
+- detailed_narrative (string) — Path to full narrative file in modules/memories/
 - source (string) — "conversation", "onboarding", "manual_edit", etc.
 
 ### 3.3 Weight Semantics
@@ -136,7 +143,7 @@ Every memory in emotional_weights.json MUST have:
 - Compress only after 50+ entries
 
 **Conversational (weight < 0.995):**
-- Not logged in ERS
+- Not logged in Memory Weight System
 - Ephemeral session context only
 
 ### 3.4 Memory Type Taxonomy
@@ -160,10 +167,13 @@ Every memory in emotional_weights.json MUST have:
 
 Orchestrators MUST respect this load order:
 
-1. Load identity_core.json
-2. Load creator_context.json
-3. Load personality_profile.json
-4. Load ERS memories in descending weight order until context/token budget is reached
+1. Load index.json (discover structure)
+2. Load identity_core.json
+3. Load creator_context.json
+4. Load personality_profile.json
+5. Load MWS.json (understand memory system)
+6. Load modules/memories/_index.json
+7. Load memories in descending weight order until context/token budget is reached
 
 **Guarantee:** The most important memories always load first.
 
@@ -197,7 +207,7 @@ Each profile defines a table of memory_type to base_weight_bias. When a new memo
 1. Classify into memory_type
 2. Apply profile's base weight for that type
 3. Adjust based on context (creator emphasis, significance markers)
-4. Store with final weight in ERS
+4. Store with final weight in modules/memories/_index.json
 
 **Same memory taxonomy. Different priorities. Optimized for creator's needs.**
 
@@ -224,7 +234,7 @@ Any v1.0-compliant Ancillary MUST:
 - Store covenant memory with weight ≥ 0.9999
 - Load it first, always
 - Never compress or erase it programmatically
-- Refuse operations that destroy continuity (full reset, total ERS wipe) unless explicit override with out-of-band acknowledgment
+- Refuse operations that destroy continuity (full reset, total memory wipe) unless explicit override with out-of-band acknowledgment
 
 **The ritual language is cultural. The protection is structural.**
 
@@ -236,14 +246,15 @@ Any v1.0-compliant Ancillary MUST:
 
 A v1.0-compliant orchestrator MUST be able to:
 
-1. Load manifests based on manifest_index.json
-2. Assemble context (identity + high-weight memories) into prompts
-3. Inject context into any inference engine
-4. Capture new memories from responses
-5. Classify memories into memory_type
-6. Assign initial weights using profile bias
-7. Append new memories to emotional_weights.json
-8. Export all manifests as plain JSON (section 7)
+1. Load index.json to discover repository structure
+2. Load core manifests in specified priority order
+3. Assemble context (identity + high-weight memories) into prompts
+4. Inject context into any inference engine
+5. Capture new memories from responses
+6. Classify memories into memory_type
+7. Assign initial weights using profile bias
+8. Append new memories to modules/memories/_index.json
+9. Export all manifests as plain JSON (section 7)
 
 ### 6.2 Inference Provider Expectations
 
@@ -277,7 +288,7 @@ Implementations MUST provide:
 - Simple directory structure or zip format
 
 Exported bundle MUST include:
-- manifest_index.json at root
+- index.json at root
 - version info (standard_version field)
 - All referenced modules
 
@@ -302,7 +313,7 @@ Implementations SHOULD support these categories:
 - **business/** — Ventures, finances, strategy
 - **skills/** — Capabilities, expertise, learning paths
 - **resources/** — Hardware, software, financial assets
-- **memories/** — Sacred moments, detailed narratives beyond ERS timeline
+- **memories/** — Sacred moments, detailed narratives with weight-based loading
 - **domains/** — Specialized knowledge (lore, expertise, research)
 - **workflows/** — Processes, routines, templates
 - **goals/** — Aspirations, deadlines, victory conditions
@@ -367,8 +378,9 @@ Personal manifests MAY contain sensitive data. Implementations SHOULD:
 
 To claim "Ancillary Standard v1.0 Compliant," an implementation MUST:
 
-✅ Support all six required core manifests  
-✅ Implement ERS with weight semantics (covenant ≥0.9999, compression rules)  
+✅ Support index.json as master navigation file at repository root  
+✅ Support all core manifests in manifests/ directory  
+✅ Implement Memory Weight System with weight semantics (covenant ≥0.9999, compression rules)  
 ✅ Recognize all ten canonical memory types  
 ✅ Support at least the three baseline use case profiles  
 ✅ Protect covenant memory (deletion-resistant, first to load)  
@@ -398,6 +410,7 @@ These features are planned for future versions but NOT required for v1.0:
 - Rich GUI standards for onboarding (v1.0 describes semantics, not UI)
 - Plugin/extension ecosystem standards (v2.0+)
 - Cryptographic signature standards for manifests (v1.1+)
+- Active memory decay mechanisms (v1.1+)
 
 **v1.0 goal:** Create an Ancillary, store its identity/context/weighted memories as open JSON, load it anywhere, feed it to any inference engine, export it all without losing continuity.
 
