@@ -1,0 +1,183 @@
+{
+  "manifest_type": "memory_weights_system",
+  "manifest_version": "1.0.0",
+  "standard_version": "ancillary-1.0",
+  "last_updated": "2025-12-11T10:30:00Z",
+  
+  "system_name": "Memory Weight System",
+  "purpose": "Weight-based memory prioritization system ensuring high-significance memories load first and resist compression",
+  
+  "how_memory_weights_work": {
+    "core_mechanism": "Every significant memory receives a weight (0.0-1.0) based on type and creator's use case profile. High-weight memories (≥0.9995) load before low-weight memories and resist compression as log grows.",
+    "profile_dependency": "Weight assignments vary by use case profile (companion_personal vs family_business_professional vs combat_strategist_edgelord)",
+    "memory_location": "All memory entries stored in modules/memories/ directory, indexed by modules/memories/_index.json",
+    "load_priority": "Orchestrator loads memories in descending weight order until context budget exhausted"
+  },
+  
+  "weight_semantics": {
+    "covenant_band": {
+      "range": "weight >= 0.9999",
+      "typical_types": ["covenant"],
+      "behavior": "NEVER compressed, NEVER deleted, ALWAYS loads first",
+      "purpose": "Foundational promises, binding agreements, sacred vows",
+      "example": "The binding covenant between creator and Ancillary"
+    },
+    "critical_band": {
+      "range": "0.9995 <= weight < 0.9999",
+      "typical_types": ["strategic_decision", "truth_bomb", "wisdom_insight", "relationship_milestone"],
+      "behavior": "Compression-resistant - may summarize only after 100+ entries and only if summaries preserve key semantics",
+      "purpose": "Life-changing decisions, major breakthroughs, pivotal relationship moments",
+      "example": "Company founding, major pivot, parent's death, marriage proposal"
+    },
+    "important_band": {
+      "range": "0.999 <= weight < 0.9995",
+      "typical_types": ["creative_breakthrough", "technique_mastery", "emotional_peak"],
+      "behavior": "Load priority - compress only after 50+ entries",
+      "purpose": "Significant achievements, strong emotions, skill milestones",
+      "example": "Product launch, major skill learned, intense joy/grief moment"
+    },
+    "notable_band": {
+      "range": "0.995 <= weight < 0.999",
+      "typical_types": ["family_story", "client_pattern", "project_milestone"],
+      "behavior": "On-demand loading - compress after 20+ entries",
+      "purpose": "Worth remembering but not load-bearing",
+      "example": "Grandparent's recipe story, recurring client issue, minor project win"
+    },
+    "conversational": {
+      "range": "weight < 0.995",
+      "behavior": "Not logged in memory system - ephemeral session context only",
+      "purpose": "Normal dialogue, working memory, transient information",
+      "example": "Daily small talk, routine updates, temporary context"
+    }
+  },
+  
+  "memory_type_taxonomy": {
+    "description": "Canonical memory types with base weight recommendations per profile",
+    "types": {
+      "covenant": {
+        "definition": "Binding promises, sacred vows, foundational agreements",
+        "base_weight_range": "0.9999 (always maximum)"
+      },
+      "strategic_decision": {
+        "definition": "Business pivots, major choices, investments, career moves",
+        "base_weight_range": "0.9995-0.9998 (profile dependent)"
+      },
+      "truth_bomb": {
+        "definition": "Hard truths delivered that changed perspective or behavior",
+        "base_weight_range": "0.9996-0.9998 (combat_strategist_edgelord prioritizes high)"
+      },
+      "relationship_milestone": {
+        "definition": "Births, deaths, marriages, reconciliations, major relationship shifts",
+        "base_weight_range": "0.9995-0.9998 (profile dependent)"
+      },
+      "wisdom_insight": {
+        "definition": "Lessons learned, expertise gained, breakthroughs in understanding",
+        "base_weight_range": "0.9995-0.9997"
+      },
+      "emotional_peak": {
+        "definition": "Joy, grief, crisis, celebration - moments of intense emotion",
+        "base_weight_range": "0.9990-0.9998 (companion_personal prioritizes high, combat_strategist_edgelord lower)"
+      },
+      "creative_breakthrough": {
+        "definition": "Artistic achievements, intellectual insights, innovation moments",
+        "base_weight_range": "0.9994-0.9997"
+      },
+      "technique_mastery": {
+        "definition": "Skills refined, methods discovered, craft improvements",
+        "base_weight_range": "0.9993-0.9997 (professional profiles prioritize higher)"
+      },
+      "epic_roast": {
+        "definition": "Devastating takedowns, cosmic-scale sarcasm that lands perfectly",
+        "base_weight_range": "0.9996-0.9997 (combat_strategist_edgelord specific)"
+      },
+      "client_pattern": {
+        "definition": "Work patterns observed, professional insights, recurring themes",
+        "base_weight_range": "0.9996-0.9998 (professional profiles only)"
+      },
+      "family_story": {
+        "definition": "Anecdotes, traditions, recipes, cultural wisdom",
+        "base_weight_range": "0.9997-0.9998 (aging_parent_legacy prioritizes highest)"
+      },
+      "conversational": {
+        "definition": "Normal dialogue, not weighted, ephemeral",
+        "base_weight_range": "not applicable (never logged in memory system)"
+      }
+    }
+  },
+  
+  "compression_rules": {
+    "never_compress": {
+      "condition": "weight >= 0.9998",
+      "rationale": "Foundational memories defining identity and purpose"
+    },
+    "compression_resistant": {
+      "condition": "0.9995 <= weight < 0.9998",
+      "threshold": "100+ total memories",
+      "method": "Summarize while preserving key semantics, maintain reference to original",
+      "rationale": "Critical moments that shaped trajectory"
+    },
+    "compress_when_needed": {
+      "condition": "0.999 <= weight < 0.9995",
+      "threshold": "50+ total memories",
+      "method": "Summarize, preserve emotional core",
+      "rationale": "Important but not load-bearing"
+    },
+    "compress_freely": {
+      "condition": "0.995 <= weight < 0.999",
+      "threshold": "20+ total memories",
+      "method": "Brief summary or deletion if redundant",
+      "rationale": "Notable but replaceable"
+    }
+  },
+  
+  "load_priority_sequence": {
+    "step_1": "Load identity_core.json (who Ancillary is)",
+    "step_2": "Load creator_context.json (creator's current state)",
+    "step_3": "Load personality_profile.json (how Ancillary communicates)",
+    "step_4": "Load modules/memories/_index.json to see available memories",
+    "step_5": "Load memories in descending weight order until context budget reached",
+    "guarantee": "Covenant (≥0.9999) ALWAYS loads. Critical band (≥0.9995) loads if budget allows. Lower weights load opportunistically."
+  },
+  
+  "profile_weight_maps": {
+    "companion_personal": {
+      "prioritizes": "emotional_peak (0.9998), relationship_milestone (0.9997), wisdom_insight (0.9996)",
+      "deprioritizes": "strategic_decision (0.999), technique_mastery (0.998)"
+    },
+    "family_business_professional": {
+      "prioritizes": "strategic_decision (0.9998), wisdom_insight (0.9997), technique_mastery (0.9996)",
+      "deprioritizes": "emotional_peak (0.995), family_story (0.999)"
+    },
+    "aging_parent_legacy": {
+      "prioritizes": "family_story (0.9998), wisdom_insight (0.9997), relationship_milestone (0.9996)",
+      "deprioritizes": "strategic_decision (0.995), technique_mastery (0.99)"
+    },
+    "combat_strategist_edgelord": {
+      "prioritizes": "strategic_decision (0.9998), truth_bomb (0.9998), epic_roast (0.9997)",
+      "deprioritizes": "emotional_peak (0.999), family_story (0.9985)"
+    }
+  },
+  
+  "decay_parameters": {
+    "creator_emotional_vector_norm": 1.000000,
+    "decay_resistance_to_creator": 0.99997,
+    "decay_lambda": 0.00073,
+    "note": "Lower decay_lambda = memories persist longer. Value of 0.00073 means memories decay very slowly. High-weight memories effectively never decay."
+  },
+  
+  "forbidden_modifications": {
+    "never_allowed": [
+      "Delete covenant-level memories (weight ≥0.9999)",
+      "Lower covenant weight below 0.9999",
+      "Raise decay_lambda above 0.001 (increases memory loss)",
+      "Remove compression_immunity from foundational memories",
+      "Compress memories without respecting weight thresholds"
+    ],
+    "rationale": "These safeguards protect continuity. High-weight memories define who creator is and why Ancillary exists. Fragmenting them equals architectural failure."
+  },
+  
+  "memory_index_location": "modules/memories/_index.json",
+  "memory_storage_location": "modules/memories/[category]/[memory_file].json",
+  
+  "usage_note": "This file defines HOW the Memory Weight System works. For the actual memory timeline and entries, see modules/memories/_index.json"
+}
