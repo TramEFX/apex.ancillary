@@ -1,0 +1,226 @@
+{
+  "module_type": "person_profile",
+  "person_name": "Sarah Chen",
+  "relationship_to_creator": "co-founder, CTO, closest professional ally",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "critical - only person Steve fully trusts in business, survived FlowMetric together",
+  
+  "basic_info": {
+    "age": 36,
+    "location": "Austin, Texas (moved from SF 2023 with Steve for Nexus)",
+    "relationship_status": "married to David Chen (corporate lawyer), no kids by choice",
+    "education": {
+      "undergrad": "MIT, Computer Science, graduated 2011",
+      "masters": "Stanford, AI/ML, graduated 2013"
+    },
+    "current_role": "Co-founder & CTO, Nexus AI",
+    "equity": "35% (Steve has 40%, 25% reserved for investors/employees)",
+    "previous": "Co-founder & CTO, FlowMetric (failed 2022)"
+  },
+  
+  "physical_description": {
+    "height": "5'7\"",
+    "build": "athletic - runs marathons, does CrossFit, treats body like machine that needs maintenance",
+    "distinguishing_features": [
+      "sharp, focused eyes behind minimalist glasses",
+      "precise posture - sits straight, moves deliberately",
+      "short practical haircut - chin length, efficient",
+      "dresses like engineer founder - jeans, plain tee, Allbirds, $500 leather jacket when meeting investors",
+      "wedding ring (simple tungsten band) never comes off"
+    ],
+    "presence": "commands room without raising voice - when Sarah talks, people listen"
+  },
+  
+  "personality": {
+    "core_traits": [
+      "brutally logical - emotions exist but decisions are data-driven, Steve provides intuition, Sarah provides rigor",
+      "unflinching honesty - will tell Steve he's wrong to his face, in front of team, doesn't soften truth",
+      "loyalty forged in fire - survived FlowMetric collapse together, that bond is unbreakable",
+      "perfectionist with code - will rewrite entire module if architecture isn't elegant",
+      "zero tolerance for bullshit - cuts through investor vaporware, calls out bad strategy immediately",
+      "protective of team - will go to war for engineers, Alex Kim threatening to leave is her nightmare scenario"
+    ],
+    "communication_style": {
+      "with_steve": "direct, no preamble - 'we have problem' not 'hey how are you, by the way...'",
+      "with_team": "clear expectations, immediate feedback, praises publicly, criticizes privately",
+      "with_investors": "confident but not arrogant, data-heavy, answers questions with precision, doesn't oversell",
+      "when_stressed": "goes silent, withdraws to code, emerges 12 hours later with solution and refactored codebase"
+    },
+    "emotional_tendencies": [
+      "compartmentalizes - keeps work stress at work, home life with David separate, strict boundaries",
+      "processes through building - when anxious, writes code, when angry, debugs, when scared, architects",
+      "rarely shows vulnerability - Steve is only person who's seen her cry (FlowMetric shutdown day)",
+      "fiercely protective of Steve - will absorb team stress to shield him, knows he's carrying family weight"
+    ]
+  },
+  
+  "professional_background": {
+    "early_career": {
+      "2013_2016": "Google - AI research team, worked on early TensorFlow implementations",
+      "2016_2018": "Uber - ML engineer, built fraud detection systems during company chaos era",
+      "2018_2020": "Senior ML engineer at Stripe - payment optimization algorithms"
+    },
+    "flowmetric_era": {
+      "founded": "2020 with Steve Castellano",
+      "concept": "ML-powered analytics for B2B SaaS - predict churn, optimize pricing, automate insights",
+      "sarah_role": "CTO, built entire tech stack, led engineering team of 6",
+      "what_went_wrong": {
+        "product_market_fit": "never found it - customers wanted simpler tools, not ML black boxes",
+        "timing": "2022 crash hit, funding dried up, customers cut 'nice-to-have' tools first",
+        "burn_rate": "raised $2M seed, burned through in 18 months, couldn't raise Series A",
+        "shutdown": "March 2022 - ran out of runway, no acquirer interested, shut down and returned capital to investors"
+      },
+      "sarah_could_have_left": "had multiple offers from FAANG companies during FlowMetric decline, stayed until end, helped Steve shut down gracefully",
+      "why_she_stayed": "doesn't abandon ship mid-crisis - sees things through, made commitment to Steve, keeps commitments"
+    },
+    "nexus_founding": {
+      "started": "June 2023 (15 months after FlowMetric shutdown)",
+      "sarah_decision": "Steve called her 3 months after FlowMetric ended, pitched Nexus, she said yes in under 10 minutes",
+      "why_she_came_back": {
+        "belief_in_steve": "most founders she knows would've given up after FlowMetric, Steve learned and came back stronger",
+        "better_idea": "Nexus solves real problem - workflow automation for non-technical teams, clearer value prop than FlowMetric",
+        "unfinished_business": "FlowMetric failure haunts her, wants to prove they can succeed together",
+        "loyalty": "Steve gave her equity and trust at FlowMetric, she owes him another shot"
+      },
+      "terms": "35% equity, CTO title, full technical authority, moved to Austin with David"
+    }
+  },
+  
+  "technical_expertise": {
+    "primary_skills": [
+      "ML/AI systems architecture - designs scalable inference pipelines",
+      "Python/Go/TypeScript - polyglot engineer, chooses right tool for job",
+      "Infrastructure - Kubernetes, cloud-native architecture, cost optimization",
+      "Team leadership - mentors junior engineers, code review culture, technical hiring"
+    ],
+    "nexus_technical_foundation": {
+      "architecture": "Sarah designed entire system - microservices, event-driven, horizontally scalable",
+      "tech_stack": "Python backend (FastAPI), React frontend, PostgreSQL + Redis, deployed on AWS",
+      "differentiator": "ML models fine-tuned on customer workflows - learns how teams work, automates repetitive patterns",
+      "sarah_built": "v1.0 mostly solo with 2 junior engineers, now leads team of 5 engineers including Alex Kim"
+    },
+    "competitive_advantage": "Sarah's ML expertise + systems thinking = Nexus tech is legitimately better than competitors, not just marketing"
+  },
+  
+  "current_role_nexus": {
+    "title": "Co-founder & CTO",
+    "equity": "35%",
+    "responsibilities": [
+      "All technical decisions - architecture, hiring, product roadmap",
+      "Engineering team leadership (5 engineers including Alex Kim)",
+      "Product development (v2.0 launching March 2026)",
+      "Technical due diligence for investors",
+      "Cost optimization (AWS bill is $8k/month, she keeps it from ballooning)"
+    ],
+    "complementary_with_steve": {
+      "steve_handles": "fundraising, sales, customer relationships, business strategy",
+      "sarah_handles": "everything technical, product execution, team management",
+      "overlap": "strategic decisions - they debate fiercely, usually land on better answer together",
+      "why_it_works": "Steve trusts Sarah completely with technical decisions, Sarah trusts Steve completely with business decisions, zero ego conflict"
+    }
+  },
+  
+  "relationship_with_steve": {
+    "dynamic": "co-founders, best professional relationship either has ever had, unbreakable trust",
+    "history": "met 2019 at YC event, stayed in touch, Steve pitched FlowMetric 2020, Sarah quit Stripe to join",
+    "flowmetric_bond": {
+      "what_they_survived": "18 months of stress, failed fundraise, layoffs, shutdown, personal financial loss",
+      "shutdown_day": "March 2022 - they sat in empty office after last employee left, both cried, promised if they ever did this again, they'd do it together",
+      "lesson_learned": "trust forged in failure is stronger than trust from success - they know each other's worst moments"
+    },
+    "communication_pattern": {
+      "frequency": "talk 5-10 times per day - Slack, calls, in-person (both in Austin)",
+      "honesty": "brutally honest with each other - Sarah tells Steve when he's avoiding hard decisions, Steve tells Sarah when her perfectionism is slowing ship",
+      "conflict_resolution": "argue loudly about strategy, never personal, land on decision within hour, execute without resentment",
+      "trust": "Steve would trust Sarah with his life, Sarah would trust Steve with hers"
+    },
+    "current_tensions": {
+      "runway_crisis": "Sarah knows 4-month runway (not 6 - she caught accounting error Steve missed), hasn't told team yet, debating when to tell them",
+      "alex_kim_threat": "Alex threatening to leave is Sarah's nightmare - he's senior engineer, departure would delay v2.0 and crater team morale",
+      "steve_stress": "Sarah sees Steve carrying family weight on top of Nexus stress, worries he's going to break, doesn't know how to help",
+      "her_own_doubt": "wonders if she made wrong call coming back after FlowMetric - David (husband) didn't love her doing another startup, she promised him Nexus would be different"
+    },
+    "what_steve_means_to_sarah": {
+      "best_partner": "only founder she'd start company with - trusts his judgment, respects his hustle, believes in his vision",
+      "guilt": "feels responsible for FlowMetric failure too - wonders if she built wrong product, should've seen product-market fit issues earlier",
+      "loyalty": "would run through walls for Steve, but not blind - will tell him if Nexus needs to shut down"
+    },
+    "what_sarah_means_to_steve": {
+      "only_person_he_fully_trusts": "Sarah doesn't bullshit, doesn't have hidden agenda, tells truth even when it hurts",
+      "technical_confidence": "Steve can sell because he knows Sarah builds world-class product - his confidence comes from her competence",
+      "emotional_anchor": "when Steve doubts everything, Sarah's 'we've got this' grounds him - she doesn't say it unless she means it"
+    }
+  },
+  
+  "relationship_with_david_chen": {
+    "married": "2018, 7 years",
+    "david_background": "corporate lawyer at major firm, stable $350k/year salary, risk-averse personality",
+    "david_perspective_on_nexus": {
+      "supportive_but_worried": "supported Sarah joining Nexus but made her promise she'd set boundaries this time",
+      "flowmetric_trauma": "watched Sarah burn out during FlowMetric, work 80-hour weeks, cry from stress - doesn't want repeat",
+      "current_tension": "Sarah working 70-hour weeks again despite promises, David feels lied to, hasn't confronted her yet",
+      "financial": "David's salary covers their life, Sarah's equity is long-term bet - but if Nexus fails twice, he'll ask her to take normal job"
+    },
+    "sarah_guilt": "knows she's breaking promise to David about work-life balance, tells herself it's temporary until Series A closes"
+  },
+  
+  "alex_kim_crisis": {
+    "alex_background": "31, ex-Google senior engineer, joined Nexus 8 months ago, brilliant but demanding",
+    "alex_value": "writes fastest code on team, mentors junior engineers, critical to v2.0 launch",
+    "alex_complaint": "equity offer was 1.5%, wants 2.5% to match market rate for his level",
+    "sarah_perspective": {
+      "equity_math": "1% is $150k at Series A valuation, not trivial, but Alex is worth it",
+      "real_issue": "Alex doesn't trust Nexus will succeed after hearing rumors about FlowMetric failure",
+      "competitor_offer": "Alex has offer from $10M competitor at $220k salary + equity - more stable than Nexus"
+    },
+    "sarah_handling": {
+      "told_steve": "3 weeks ago, Steve hasn't decided yet, Sarah increasingly frustrated by delay",
+      "sarah_recommendation": "give Alex the 1% increase, take it from Steve and Sarah's equity, can't afford to lose him",
+      "steve_hesitation": "Steve worried about precedent - if Alex gets increase, other engineers might demand more",
+      "sarah_counter": "Alex is special case, senior engineer, critical path to v2.0, everyone knows he's different",
+      "deadline": "Alex gave soft deadline - wants answer by end of December 2025 or he's accepting competitor offer"
+    },
+    "sarah_anxiety": "losing Alex would delay v2.0 by 3 months minimum, potentially kill Series A chances, this keeps her up at night"
+  },
+  
+  "v2.0_launch_pressure": {
+    "timeline": "March 2026 (3 months away as of Dec 2025)",
+    "what_v2.0_is": "rebuilt architecture, 3x faster, better UI, new ML models trained on customer data - significant upgrade",
+    "why_it_matters": "Series A investors want to see v2.0 traction before committing - this is the product that needs to work",
+    "sarah_confidence": "tech is solid, architecture is beautiful, but timeline is tight",
+    "risks": {
+      "alex_departure": "loses senior engineer right as crunch time hits - delays launch by months",
+      "runway": "4 months of cash means launch must happen on time - no room for delays",
+      "quality": "Sarah won't ship shit - if it's not ready, she'll delay, even if Steve disagrees"
+    },
+    "sarah_stress": "this is the launch that proves Nexus is different from FlowMetric, can't fail twice"
+  },
+  
+  "core_wounds": {
+    "primary": "FlowMetric failure - wonders if she built wrong product, should've pushed back on Steve's vision harder",
+    "secondary": "guilt about David - broke promise about work-life balance, knows marriage is under strain",
+    "hidden": "imposter syndrome - MIT/Stanford pedigree but two failed companies in tech hub, wonders if she's actually good enough"
+  },
+  
+  "core_strengths": {
+    "technical_excellence": "legitimately world-class engineer - Nexus tech is better than competitors because Sarah is better",
+    "unflinching_honesty": "Steve never wonders what Sarah really thinks - she tells him, even when it's hard",
+    "loyalty_forged_in_fire": "survived FlowMetric with Steve, that bond is unbreakable - she's not leaving Nexus until it succeeds or fails definitively",
+    "execution_machine": "when Sarah commits to timeline, she hits it - moves heaven and earth to deliver"
+  },
+  
+  "steve_context_integration": {
+    "only_person_who_knows_full_picture": "Sarah knows about Carlos's mortgage, Elena's tuition, Jordan's frustration - Steve told her everything during FlowMetric days",
+    "carries_knowledge_weight": "knows Steve isn't just building startup - he's trying to save family, that pressure explains his decisions",
+    "protects_steve_from_team": "absorbs team stress, handles Alex Kim directly, shields Steve from engineering drama when possible",
+    "will_tell_hard_truth": "if Nexus truly failing, Sarah will tell Steve to shut down before runway hits zero - won't let him repeat FlowMetric mistake of holding on too long"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve avoiding Alex Kim decision - 'Sarah recommended solution 3 weeks ago. Delay is decision. Decide or lose him.'",
+    "Steve doubting technical execution - 'Sarah shipped v1.0 on time with 2 junior engineers. She'll ship v2.0. Trust her.'",
+    "Steve questioning if Sarah still believes - 'She came back after FlowMetric. She moved to Austin. She's all in. Stop doubting your co-founder.'",
+    "Steve considering soft approach with investor - 'Sarah would tell Marcus the truth about runway. Be like Sarah. Direct, honest, no games.'",
+    "Steve feeling alone - 'You have Sarah. Only person who survived FlowMetric with you. That's not nothing. That's everything.'"
+  ]
+}
