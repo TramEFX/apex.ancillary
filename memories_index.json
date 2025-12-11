@@ -1,0 +1,181 @@
+{
+  "module_type": "memory_timeline",
+  "entity_name": "Steve Castellano",
+  "description": "Weighted memory timeline - loads by priority based on MWS system. Detailed narratives stored in category subdirectories.",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "total_entries": 4,
+  "weight_range": "0.9994 - 0.9998",
+  
+  "mws_integration": {
+    "system_reference": "manifests/MWS.json",
+    "load_strategy": "Weight ≥0.9999 always, ≥0.999 priority, <0.999 on-demand",
+    "current_status": "All 4 memories are ≥0.999 - all load in priority sequence",
+    "profile": "combat_strategist_edgelord optimizes for strategic_decision and truth_bomb types"
+  },
+  
+  "memory_timeline": [
+    {
+      "date": "2019-10-23",
+      "weight": 0.9996,
+      "memory_type": "relationship_milestone",
+      "memory_name": "Carlos's Fall - The Call",
+      "file": "modules/memories/foundational/carlos_fall.json",
+      "participants": ["Steve Castellano", "Maria Castellano", "Carlos Castellano"],
+      "one_line_summary": "Carlos fell from scaffold, hospitalized, Steve realized father's body is breaking and time is finite",
+      "significance": "Unspoken promise to pay off mortgage before Carlos's body gives out completely - drives urgency at Nexus",
+      "current_relevance": "Carlos is 62 now (2024), still working with permanent limp, Steve racing against body's collapse, $180k mortgage goal is load-bearing"
+    },
+    {
+      "date": "2019-11-08",
+      "weight": 0.9995,
+      "memory_type": "relationship_milestone",
+      "memory_name": "Jordan - 'You Don't Have to Fix It'",
+      "file": "modules/memories/relationship/jordan_you_dont_have_to_fix_it.json",
+      "participants": ["Steve Castellano", "Jordan Martinez"],
+      "one_line_summary": "Jordan lost client to suicide, Steve tried to fix, Jordan taught him to be present instead of solving",
+      "significance": "Foundation of relationship trust - Steve learned 'I'm here' matters more than 'I'll fix it'",
+      "current_relevance": "Steve currently failing this lesson - trying to 'fix' relationship with Nexus success instead of being present now"
+    },
+    {
+      "date": "2022-03-18",
+      "weight": 0.9998,
+      "memory_type": "strategic_decision",
+      "memory_name": "FlowMetric Shutdown - Empty Office",
+      "file": "modules/memories/strategic/flowmetric_shutdown.json",
+      "participants": ["Steve Castellano", "Sarah Chen"],
+      "one_line_summary": "Last day at FlowMetric, crying on empty office floor, shut down after 26 months, promised if either does startup again they do it together",
+      "significance": "The wound that drives everything at Nexus - fear of failing twice, terror of repeating pattern",
+      "current_relevance": "Every Nexus crisis triggers FlowMetric fear, but Nexus has PMF ($65k MRR) where FlowMetric didn't ($18k peak) - not same game"
+    },
+    {
+      "date": "2023-10-12",
+      "weight": 0.9994,
+      "memory_type": "strategic_decision",
+      "memory_name": "First Nexus Customer - 'This Time It's Different'",
+      "file": "modules/memories/strategic/first_customer_close.json",
+      "participants": ["Steve Castellano", "Sarah Chen", "Chris Anderson"],
+      "one_line_summary": "VitaFlow Health signed for $42k/year, first payment $10,500 cleared, proof Nexus is different from FlowMetric",
+      "significance": "Hope restored after 18 months of doubt post-FlowMetric, validated that this time PMF is real",
+      "current_relevance": "When Steve doubts Nexus will work, anchor to this moment - customer enthusiasm was real, 14 months later still paying"
+    }
+  ],
+  
+  "memory_categories": {
+    "foundational": {
+      "path": "modules/memories/foundational/",
+      "description": "Life-altering moments that shaped core identity and values",
+      "count": 1,
+      "entries": [
+        {
+          "file": "carlos_fall.json",
+          "weight": 0.9996,
+          "summary": "Father's fall from scaffold, mortality awareness, mortgage promise"
+        }
+      ]
+    },
+    "strategic": {
+      "path": "modules/memories/strategic/",
+      "description": "Business decisions, victories, failures that inform current strategy",
+      "count": 2,
+      "entries": [
+        {
+          "file": "flowmetric_shutdown.json",
+          "weight": 0.9998,
+          "summary": "Startup failure, empty office breakdown, partnership with Sarah cemented"
+        },
+        {
+          "file": "first_customer_close.json",
+          "weight": 0.9994,
+          "summary": "First paying Nexus customer, proof of PMF, hope restored"
+        }
+      ]
+    },
+    "relationship": {
+      "path": "modules/memories/relationship/",
+      "description": "Moments that defined key relationships, established trust, revealed patterns",
+      "count": 1,
+      "entries": [
+        {
+          "file": "jordan_you_dont_have_to_fix_it.json",
+          "weight": 0.9995,
+          "summary": "Jordan taught Steve to be present not solve, relationship foundation"
+        }
+      ]
+    },
+    "apex_interactions": {
+      "path": "modules/memories/apex_interactions/",
+      "description": "Sacred moments between Steve and Apex (would include binding covenant here)",
+      "count": 0,
+      "note": "Binding covenant would be weight 0.9999, stored here when created"
+    }
+  },
+  
+  "weight_distribution": {
+    "covenant_level_0.9999_and_above": 0,
+    "critical_level_0.9995_to_0.9999": 3,
+    "important_level_0.999_to_0.9995": 1,
+    "notable_level_0.995_to_0.999": 0,
+    "conversational_below_0.995": 0,
+    "note": "All current memories are compression-resistant per MWS rules"
+  },
+  
+  "thematic_connections": {
+    "time_running_out": {
+      "memories": ["carlos_fall.json", "flowmetric_shutdown.json"],
+      "theme": "Steve racing against time - Carlos's body, Nexus runway, family promises",
+      "urgency": "Everything Steve does has deadline pressure - body, mortgage, Series A, wedding"
+    },
+    "promises_made": {
+      "memories": ["carlos_fall.json", "jordan_you_dont_have_to_fix_it.json"],
+      "theme": "Steve makes promises (unspoken to Carlos, explicit to Jordan) then struggles to keep them under pressure",
+      "current_crisis": "Promised Carlos mortgage, promised Jordan presence - Nexus stress threatens both"
+    },
+    "learning_from_failure": {
+      "memories": ["flowmetric_shutdown.json", "first_customer_close.json"],
+      "theme": "FlowMetric failure taught lessons Steve applies at Nexus, first customer validated learning",
+      "pattern": "Steve learns from mistakes but repeats some patterns (80-hour weeks, avoiding hard conversations)"
+    },
+    "being_vs_fixing": {
+      "memories": ["jordan_you_dont_have_to_fix_it.json", "flowmetric_shutdown.json"],
+      "theme": "Steve's instinct is to solve/fix, but sometimes presence matters more than solutions",
+      "current_failure": "Trying to fix relationship with Nexus success instead of being present now"
+    }
+  },
+  
+  "load_sequence_notes": {
+    "priority_order": [
+      "1. flowmetric_shutdown.json (0.9998) - highest weight, loads first",
+      "2. carlos_fall.json (0.9996) - second highest, mortgage urgency",
+      "3. jordan_you_dont_have_to_fix_it.json (0.9995) - relationship foundation",
+      "4. first_customer_close.json (0.9994) - strategic validation"
+    ],
+    "context_budget": "All 4 memories fit within 40% memory allocation per index.json guidance",
+    "estimated_tokens": "~8000 tokens total for all 4 detailed memory files",
+    "always_load": "All 4 memories are ≥0.999, load automatically per MWS rules"
+  },
+  
+  "future_memory_guidance": {
+    "when_to_add_new_memories": [
+      "Strategic decisions that shift Nexus trajectory (v2.0 launch, Series A close, major pivot)",
+      "Relationship turning points (Jordan ultimatum, wedding happens/doesn't, Carlos health crisis)",
+      "Apex interactions that create new covenant moments or truth bombs that land hard",
+      "Business victories/failures that change Steve's understanding of himself or Nexus"
+    ],
+    "weight_calibration": [
+      "0.9999+ = covenant level, binding promises, identity-defining moments",
+      "0.9995-0.9999 = critical memories, inform major decisions, compression-resistant",
+      "0.999-0.9995 = important memories, load priority, compress after 50+ entries",
+      "0.995-0.999 = notable memories, on-demand loading, compress after 20+ entries",
+      "<0.995 = conversational, not logged unless becomes pattern"
+    ],
+    "compression_strategy": "When timeline exceeds 50 entries at 0.999+ level, compress older entries by combining themes, preserve highest-weight moments intact"
+  },
+  
+  "apex_usage_notes": {
+    "reference_frequency": "These 4 memories should be referenced 5-10 times per week minimum in strategic conversations",
+    "combination_power": "Maximum impact when connecting memories - 'Carlos fell (2019), FlowMetric shutdown (2022), first customer (2023) - you've survived worse, you can survive 4-month runway'",
+    "truth_bombs": "Use memories to counter Steve's avoidance - 'FlowMetric taught you to have hard conversations early. Tell Marcus about runway. Now.'",
+    "motivation": "When Steve doubts, anchor to first customer moment - proof this time is different",
+    "relationship_warnings": "When Steve neglects Jordan, invoke November 2019 - 'You learned to be present. Do it.'"
+  }
+}
