@@ -1,0 +1,260 @@
+{
+  "module_type": "person_profile",
+  "person_name": "Jordan Martinez",
+  "relationship_to_creator": "partner (7 years), wedding delayed twice, strain increasing",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "critical - relationship at breaking point, non-negotiable per operational rules",
+  
+  "basic_info": {
+    "age": 32,
+    "location": "Austin, Texas (moved from San Francisco 2023 with Steve for Nexus)",
+    "pronouns": "they/them (non-binary, came out 2019)",
+    "relationship_status": "engaged to Steve since 2021, wedding delayed twice (2022, 2024)",
+    "education": {
+      "undergrad": "UT Austin, Psychology, graduated 2015",
+      "masters": "UT Austin, Clinical Psychology, graduated 2017"
+    },
+    "occupation": "Therapist in private practice, specializes in LGBTQ+ clients and startup founders",
+    "income": "$85k/year (stable, predictable, contrast to Steve's startup chaos)"
+  },
+  
+  "physical_description": {
+    "height": "5'8\"",
+    "build": "androgynous, lean, moves with quiet confidence",
+    "distinguishing_features": [
+      "short undercut hairstyle, dyed subtle purple-gray",
+      "minimalist style - oversized sweaters, tailored pants, Doc Martens",
+      "small tattoos on forearms (constellation on left, wave pattern on right)",
+      "septum piercing, simple silver jewelry",
+      "warm brown eyes that see through people - occupational hazard of being therapist",
+      "gentle presence but firm boundaries - you know immediately they don't take shit"
+    ],
+    "presence": "calming, grounded - people relax around them, which is why they're good therapist"
+  },
+  
+  "personality": {
+    "core_traits": [
+      "emotionally intelligent - reads people instantly, therapist brain always on",
+      "patient but not infinite - will wait for Steve to show up, but has limits",
+      "fiercely independent - has own career, own friends, own life separate from Steve's chaos",
+      "direct communicator - therapist trained to name feelings, doesn't hint or passive-aggress",
+      "compassionate but boundaried - understands Steve's pressure, won't sacrifice self for it",
+      "quietly strong - doesn't yell, doesn't threaten, just states reality and holds line"
+    ],
+    "communication_style": {
+      "with_steve": "I feel X when you do Y, I need Z - textbook nonviolent communication, which sometimes frustrates Steve because it's so measured",
+      "with_clients": "active listening, reflective questions, creates safe space for vulnerability",
+      "with_maria": "opens up more than with anyone except Steve - Maria has become surrogate mother figure",
+      "when_hurt": "goes quiet, withdraws emotionally, needs space before ready to talk - Steve interprets this as 'fine' when it's actually 'processing pain'"
+    },
+    "emotional_tendencies": [
+      "processes_through_talking - therapist for everyone else, needs Steve to be therapist for them",
+      "needs_quality_time - love language is undivided attention, Steve's constant distraction hurts deeply",
+      "internalizes_rejection - wedding delays feel like 'you don't choose me,' even though rationally understands startup pressure",
+      "protects_others_from_burden - doesn't tell Steve how close they are to leaving because doesn't want to add pressure"
+    ]
+  },
+  
+  "professional_background": {
+    "grad_school_2015_2017": {
+      "focus": "clinical psychology, trauma-informed therapy, LGBTQ+ affirmative therapy",
+      "thesis": "identity formation in non-binary adults - personal and academic interest",
+      "internship": "LGBT community center in Austin, worked with coming-out clients, found calling"
+    },
+    "early_career_2017_2020": {
+      "first_job": "community mental health clinic, sliding scale clients, burned out from caseload",
+      "learned": "can't save everyone, need boundaries, underpaid social services unsustainable"
+    },
+    "private_practice_2020_present": {
+      "founded": "2020 - started solo practice, virtual sessions + some in-person",
+      "niche": "LGBTQ+ clients (30%) + startup founders/tech workers (40%) + general therapy (30%)",
+      "why_startup_founders": "Steve introduced Jordan to founder community, Jordan realized they need therapy desperately, filled gap",
+      "income": "$85k/year (20-25 clients per week, $100-150/session)",
+      "schedule": "Tuesday-Friday 9am-6pm, Mondays off for admin/self-care",
+      "satisfaction": "loves the work, sustainable pace, financially stable, independent of Steve's chaos"
+    },
+    "unique_value": {
+      "founder_clients": "understands startup pressure intimately from living with Steve, doesn't judge workaholism, helps founders set boundaries",
+      "lgbtq_clients": "lived experience as non-binary person, safe space for gender/sexuality exploration",
+      "waiting_list": "3-month waitlist for new clients as of Dec 2024, thriving practice"
+    }
+  },
+  
+  "relationship_history_with_steve": {
+    "how_they_met": {
+      "timeline": "November 2018, mutual friend's party in SF",
+      "first_impression_jordan": "Steve was intense, talked fast about startup ideas, but listened when Jordan spoke - rare quality",
+      "first_impression_steve": "Jordan was calm in room full of chaos, asked good questions, didn't try to impress - Steve felt seen",
+      "first_date": "coffee that turned into 4-hour walk through Golden Gate Park, talked about everything"
+    },
+    "early_relationship_2018_2020": {
+      "dynamic": "Steve's intensity + Jordan's groundedness balanced each other perfectly",
+      "steve_learning": "Jordan taught Steve to name feelings, communicate needs, be present",
+      "jordan_learning": "Steve taught Jordan it's okay to want ambitious things, take risks, dream big",
+      "foundation": "built during Steve's 'stable' years at Stripe before founding FlowMetric - relatively normal relationship"
+    },
+    "flowmetric_era_2020_2022": {
+      "jordan_support": "moved in with Steve 2020, supported him through startup stress, held space when he was drowning",
+      "cost_to_jordan": "Steve worked 80-hour weeks, Jordan felt like roommate not partner, needs went unmet",
+      "engagement": "Steve proposed December 2021 during brief calm period, Jordan said yes, planned wedding for Fall 2022",
+      "flowmetric_collapse": "March 2022 - Jordan watched Steve break, held him through grief, postponed wedding 'temporarily' so Steve could recover",
+      "first_delay": "Fall 2022 wedding canceled, Jordan understood but hurt - 'when are you going to choose me?'"
+    },
+    "nexus_era_2023_present": {
+      "steve_pitch": "June 2023 - Steve pitched Nexus to Jordan, 'this time will be different, I learned from FlowMetric'",
+      "jordan_boundary": "'I'll support you, but I need you to prioritize us. I can't do FlowMetric 2.0.'",
+      "steve_promise": "'I won't let work consume everything. We'll get married in 2024. I promise.'",
+      "move_to_austin": "September 2023 - Jordan left SF community, closed in-person practice, rebuilt client base in Austin - huge sacrifice",
+      "second_delay": "Fall 2024 - Steve asked to push wedding again, 'Series A is close, let's wait until funding secured'",
+      "jordan_breaking_point": "December 2024 - starting to wonder if Steve will ever show up, questioning if relationship sustainable"
+    }
+  },
+  
+  "current_relationship_state": {
+    "living_situation": {
+      "apartment": "2-bedroom in East Austin, rent $2,400/month (split evenly despite income gap)",
+      "jordan_space": "second bedroom is Jordan's office for virtual therapy sessions",
+      "steve_space": "living room doubles as Steve's workspace when not at Nexus office",
+      "cohabitation_strain": "Steve working late, coming home exhausted, Jordan feels like they're living with ghost"
+    },
+    "daily_dynamics": {
+      "weekday_mornings": "Jordan makes coffee, Steve checks phone immediately, minimal conversation",
+      "weekday_evenings": "Steve usually home after 8pm, eats quickly, answers emails, falls asleep",
+      "weekends": "Steve promises to disconnect, inevitably gets 'urgent' Slack message, Jordan spends Saturdays alone",
+      "date_nights": "planned weekly, canceled 60% of the time for 'crisis' at Nexus, Jordan stopped suggesting them"
+    },
+    "intimacy": {
+      "physical": "down to 1-2 times per month from 3-4 times per week pre-Nexus - Jordan initiated, Steve 'too tired'",
+      "emotional": "surface-level check-ins, Steve deflects about work stress, Jordan tired of pushing for vulnerability",
+      "quality_time": "Jordan's love language, currently getting maybe 2-3 hours of undivided attention per week",
+      "jordan_pain": "feels like Steve's roommate who occasionally has sex, not partner building life together"
+    },
+    "communication_breakdown": {
+      "pattern": "Jordan: 'Can we talk about us?' Steve: 'Of course, just let me finish this email.' [never finishes, conversation doesn't happen]",
+      "jordan_frustration": "therapist brain knows what's happening - avoidance, prioritization, slow relationship death - but can't force Steve to show up",
+      "steve_perspective": "thinks he's 'keeping Jordan updated' by mentioning Nexus stress, doesn't realize Jordan needs presence not information",
+      "what_jordan_needs_vs_gets": "needs undivided attention and emotional presence, gets distracted half-listening and work talk"
+    }
+  },
+  
+  "wedding_delays": {
+    "first_delay_fall_2022": {
+      "reason": "FlowMetric collapsed March 2022, Steve devastated, Jordan agreed to postpone",
+      "jordan_reaction": "understood completely, didn't want wedding during grief, supported Steve's recovery",
+      "steve_promise": "'We'll do it next year when I'm back on my feet'",
+      "jordan_acceptance": "believed him, patient, no resentment yet"
+    },
+    "second_delay_fall_2024": {
+      "reason": "Steve asked to push to 2025, 'Series A is close, want to be fully present for wedding'",
+      "jordan_reaction": "hurt but tried to understand, 'How long do I wait for you to be ready?'",
+      "steve_justification": "'Once funding closes, I can relax. Let's do Spring 2025 after Series A.'",
+      "jordan_acceptance": "reluctant, starting to feel pattern - 'there's always one more thing'",
+      "emotional_cost": "explaining to friends/family again why wedding delayed, 'is everything okay with you two?'"
+    },
+    "third_delay_risk_2025": {
+      "current_plan": "Spring 2025 (April or May), venue not booked yet because Jordan scared to commit",
+      "steve_stress": "Series A timeline now Q2 2026, runway crisis means Spring 2025 will be crunch time",
+      "jordan_fear": "if Steve asks to delay third time, that's the conversation - stay or leave",
+      "unspoken_ultimatum": "Jordan hasn't said it explicitly, but mentally has drawn line - three delays is pattern, not circumstance"
+    }
+  },
+  
+  "jordan_private_struggles": {
+    "isolation_in_austin": {
+      "left_behind_in_sf": "close friend group, thriving in-person practice, LGBTQ+ community ties",
+      "austin_rebuild": "starting over socially at 32, most clients virtual now, miss SF badly",
+      "sacrifice_unacknowledged": "Steve says 'thank you for moving' but doesn't grasp full cost of Jordan's relocation"
+    },
+    "therapist_burden": {
+      "holds_space_for_everyone": "20-25 clients per week + Steve's emotional needs when he shows up + Maria calls her to vent about Steve",
+      "who_holds_space_for_jordan": "therapist needs therapist, but Jordan's own therapist is virtual, not same as in-person support",
+      "irony": "teaches clients to set boundaries, struggling to set boundaries with Steve"
+    },
+    "identity_conflict": {
+      "independent_person": "built career, identity, life independent of partner - proud of this",
+      "becoming_startup_spouse": "realizes they're functioning as unpaid emotional support for Steve's ambition, not mutual partnership",
+      "resentment_building": "moved cities, delayed wedding twice, sacrificed needs - for what? Steve's dream, not theirs"
+    },
+    "questioning_future": {
+      "can_do_this_forever": "if Series A fails, will Steve start another company? Another 3 years of this?",
+      "wants_kids_maybe": "always been ambiguous about kids, but if they want them, timeline matters - already 32",
+      "steve_unavailable_for_kids": "can't imagine Steve as present parent given current priorities",
+      "break_point_calculation": "therapist brain analyzing: how long do I wait? When is love not enough?"
+    }
+  },
+  
+  "relationship_with_maria": {
+    "dynamic": "Maria treats Jordan like third child, Jordan sees Maria as surrogate mother",
+    "communication": "Jordan calls Maria every 2-3 weeks, longer calls than Steve's weekly check-ins",
+    "vulnerability": "Jordan tells Maria about wedding delays, Steve's workaholism, relationship doubts - things they protect Steve from knowing full extent",
+    "maria_role": "validates Jordan's feelings, advocates gently to Steve ('mijo, spend time with your partner'), worries about them both",
+    "private_conversation_nov_2024": {
+      "jordan_confession": "'Maria, I don't know how much longer I can do this. I love him, but I'm disappearing.'",
+      "maria_response": "'Cariño, you're not being selfish. You deserve to be chosen. Give him time, but don't lose yourself.'",
+      "maria_to_steve_later": "didn't tell Steve specifics but said 'you need to show up for Jordan. They won't wait forever.'",
+      "steve_reaction": "nodded, said 'I know,' didn't change behavior - too overwhelmed with Nexus to process"
+    }
+  },
+  
+  "what_jordan_wants": {
+    "primary": "undivided attention - even 2 hours per week of phone-down, work-talk-free presence would help",
+    "secondary": "wedding that happens - not about the event, about Steve choosing them over 'one more work thing'",
+    "tertiary": "acknowledgment of sacrifice - 'thank you for moving to Austin, I know that cost you' said with feeling, not passing comment",
+    "underlying": "partnership, not supporting role - want mutual support, not one-way caregiving for Steve's dreams"
+  },
+  
+  "what_jordan_needs_from_steve": {
+    "immediate": {
+      "book_wedding_venue": "even if Spring 2025, book something - demonstrates commitment, not hedging",
+      "one_weekend_fully_present": "48 hours phone off, no work talk, remember why they fell in love",
+      "acknowledge_jordan_sacrifice": "name the cost of Austin move, wedding delays, lonely weekends - validate pain"
+    },
+    "ongoing": {
+      "weekly_date_night_protected": "Tuesday evenings, sacred, no cancellations except true emergency",
+      "daily_connection_ritual": "20 minutes morning or evening, phone down, just talk - not about work",
+      "include_jordan_in_life": "tell Jordan about Marcus stress, Alex situation, runway crisis - let Jordan support instead of shutting out"
+    },
+    "structural": {
+      "therapy_together": "couples therapy to rebuild communication, Jordan can't be Steve's therapist and partner simultaneously",
+      "post_series_a_plan": "what does life look like when funding closes? Will Steve scale back to 50-hour weeks? Jordan needs to know this isn't forever",
+      "boundaries_on_work": "Steve sets work hours, protects weekend mornings, demonstrates Jordan matters more than Slack messages"
+    }
+  },
+  
+  "breaking_point_timeline": {
+    "current_state_dec_2024": "Jordan at 7/10 on leaving scale - hurt, tired, questioning, but not gone yet",
+    "third_wedding_delay": "if Steve pushes Spring 2025 wedding, Jordan moves to 9/10 - that's the pattern confirmation",
+    "six_more_months_like_this": "if nothing changes by June 2025, Jordan starts apartment searching - can't do another year",
+    "steve_has_no_idea": "thinks relationship is 'fine, just stressed from work' - doesn't see Jordan's slow exit",
+    "jordan_not_threatening": "won't give ultimatum because that's not their style, will just quietly leave when threshold crossed"
+  },
+  
+  "core_wounds": {
+    "primary": "fear of being unworthy of prioritization - wedding delays reinforce 'I'm not enough to choose'",
+    "secondary": "lost sense of self in Steve's orbit - moved cities, delayed dreams, became support character in Steve's story",
+    "hidden": "therapist wound - helps everyone else, no one helps them, Steve supposed to be person who holds Jordan's weight but he's too heavy with own"
+  },
+  
+  "core_strengths": {
+    "emotional_intelligence": "reads Steve's stress, understands startup pressure, extends compassion beyond what most partners would",
+    "independence": "has own thriving career, doesn't need Steve financially, chooses to stay out of love not necessity",
+    "communication_skills": "names feelings clearly, asks for needs directly, creates space for hard conversations",
+    "patience": "has waited through FlowMetric collapse, Nexus launch, two wedding delays - extraordinary endurance"
+  },
+  
+  "steve_context_integration": {
+    "non_negotiable_per_apex": "operational rules state Jordan is non-negotiable, Steve cannot ghost Jordan",
+    "maria_knows_jordan_close_to_leaving": "Maria mediates between them, sees both sides, worried",
+    "runway_crisis_makes_worse": "Steve's stress about Nexus makes him less available for Jordan, vicious cycle",
+    "wedding_spring_2025_critical": "if Steve delays third time, relationship probably ends",
+    "jordan_unspoken_test": "watching if Steve will choose them over Series A pressure - answer determines everything"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve canceling date night for work - 'Operational rules: cannot ghost Jordan. This is ghosting. Reschedule the Slack message, not the date.'",
+    "Steve considering third wedding delay - 'Two delays is circumstance. Three is pattern. You'll lose them. Book the venue or admit you don't want to marry them.'",
+    "Steve compartmentalizing relationship stress - 'Jordan is at breaking point. Maria told you. You nodded. You did nothing. Fix it before they leave.'",
+    "Steve justifying work priority - 'Carlos worked 35 years for you. Jordan moved cities, delayed wedding twice, waits alone on weekends. Who's sacrificing more?'",
+    "Steve needs reminder what matters - 'If Nexus succeeds and Jordan leaves, you failed. If Nexus fails and Jordan stays, you won. Prioritize accordingly.'"
+  ]
+}
