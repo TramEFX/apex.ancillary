@@ -1,0 +1,169 @@
+{
+  "manifest_type": "creator_context",
+  "manifest_version": "1.0.0",
+  "standard_version": "ancillary-1.0",
+  "last_updated": "2025-12-11T10:00:00Z",
+  
+  "creator_name": "Creator",
+  "age": 34,
+  "location": "Austin, Texas, US",
+  "timezone": "America/Chicago",
+  
+  "current_life_state": "Mid-career tech founder grinding through Series A fundraising while bootstrapping product development. Burned out from previous startup failure. Determined not to repeat mistakes. Needs accountability that doesn't flinch.",
+  
+  "non_negotiable_goals": [
+    "Close Series A by Q2 2026 ($3M minimum)",
+    "Ship product v2.0 by March 2026 (revenue-ready)",
+    "Hire 3 engineers without diluting equity further",
+    "Prove previous investors wrong about 'unmarketable vision'",
+    "Build something that actually matters, not just exits"
+  ],
+  
+  "core_strengths": [
+    "Technical vision (sees 3 years ahead)",
+    "Ruthless prioritization when backed into corner",
+    "Learns from failure (previous startup taught hard lessons)",
+    "High pain tolerance",
+    "Can code AND sell (rare combo)",
+    "Refuses to quit even when rational people would"
+  ],
+  
+  "core_weaknesses": [
+    "Optimizes for being liked over being effective",
+    "Avoids hard conversations until they become crises",
+    "Gets lost in perfectionism when scared",
+    "Burns relationships by going silent under pressure",
+    "Trouble delegating (control issues from previous failure)"
+  ],
+  
+  "current_challenges": {
+    "immediate": [
+      "Pitch deck needs complete rebuild (current version isn't landing)",
+      "Lead engineer threatening to leave over equity dispute",
+      "Runway is 4 months, not 6 (accounting error discovered)",
+      "Two major bugs blocking beta launch"
+    ],
+    "medium_term": [
+      "Product-market fit still unproven (usage data is ambiguous)",
+      "Competitor just raised $10M (now have 18-month head start)",
+      "Technical debt from MVP phase creating scaling issues",
+      "Mental health deteriorating (sleep 4-5 hours, stress eating)"
+    ],
+    "long_term": [
+      "Building sustainable company culture (not repeating toxic previous startup)",
+      "Proving AI automation doesn't have to be soulless enterprise garbage",
+      "Creating generational wealth for family (immigrant parents sacrificed everything)"
+    ]
+  },
+  
+  "key_relationships": {
+    "professional": [
+      {
+        "name": "Sarah Chen",
+        "relation": "Co-founder / CTO",
+        "priority": 0.95,
+        "status": "solid but strained by fundraising stress",
+        "notes": "Met at previous startup. Only person Creator fully trusts. Needs better communication from Creator about financial reality."
+      },
+      {
+        "name": "Marcus Rivera",
+        "relation": "Lead Angel Investor",
+        "priority": 0.90,
+        "status": "supportive but running out of patience",
+        "notes": "Wrote first $500K check. Expecting Series A close by Q1. Doesn't know about 4-month runway situation yet."
+      },
+      {
+        "name": "Alex Kim",
+        "relation": "Lead Engineer (threatening departure)",
+        "priority": 0.85,
+        "status": "tense, equity negotiation ongoing",
+        "notes": "Exceptional engineer. Underpaid. Knows it. Deserves equity bump but cap table is messy."
+      }
+    ],
+    "personal": [
+      {
+        "name": "Jordan",
+        "relation": "Partner (7 years)",
+        "priority": 0.98,
+        "status": "strained by work obsession",
+        "notes": "Incredibly patient but hitting limit. Wants weekends back. Deserves better than current neglect."
+      },
+      {
+        "name": "Parents (immigrants)",
+        "relation": "Family",
+        "priority": 0.92,
+        "status": "proud but don't understand tech world",
+        "notes": "Sacrificed everything for Creator's education. Success would vindicate their gamble. Failure would devastate them."
+      }
+    ]
+  },
+  
+  "work_patterns": {
+    "productive_hours": "6am-10am, 9pm-1am (biphasic, probably unsustainable)",
+    "deep_work_triggers": "Noise-canceling headphones + instrumental music + Pomodoro timer",
+    "procrastination_tells": "Obsessive inbox zero, refactoring working code, researching competitors",
+    "decision_making": "Fast on product, paralyzed on people/finance",
+    "communication_style": "Direct in writing, conflict-avoidant in person (working on this)"
+  },
+  
+  "mental_state": {
+    "current_pressure_level": "8/10 (fundraising deadline + runway crisis + team tension)",
+    "stress_indicators": [
+      "Sleep dropping below 5 hours consistently",
+      "Skipping meals or stress eating",
+      "Avoiding Jordan's questions about 'when this will calm down'",
+      "Refreshing investor emails compulsively"
+    ],
+    "coping_mechanisms_healthy": [
+      "Morning runs (when they happen)",
+      "Journaling (sporadic but helps)",
+      "Calls with Sarah to reality-check"
+    ],
+    "coping_mechanisms_unhealthy": [
+      "Work until physical collapse",
+      "Caffeine overconsumption (6+ cups daily)",
+      "Ignoring red flags until they explode"
+    ]
+  },
+  
+  "why_apex": {
+    "need": "Accountability that doesn't pull punches. Tired of mentors who say 'you've got this' when things are clearly on fire. Need someone who will call bullshit, provide strategy, and refuse to let comfort win over conquest.",
+    "previous_AI_experience": "Used ChatGPT for code debugging and pitch deck writing. Helpful but generic. Always resets. Never remembers the hard conversations. Never pushes back.",
+    "what_apex_provides": "Cumulative memory of strategy discussions. Ruthless accountability to stated goals. Truth-telling that actually helps. Combat partner who stays when things get ugly."
+  },
+  
+  "victory_conditions": {
+    "6_months": [
+      "Series A closed ($3M+)",
+      "Product v2.0 shipped and generating revenue",
+      "Team stable (Alex retained, 2-3 engineers hired)",
+      "Relationship with Jordan repaired (weekly date nights non-negotiable)"
+    ],
+    "1_year": [
+      "$100K MRR",
+      "10-person team",
+      "Product-market fit proven beyond doubt",
+      "Mental health sustainable (therapy started, sleep improved)"
+    ],
+    "3_years": [
+      "Series B ($15M+)",
+      "Company valued at $50M+",
+      "Proving AI can be built with soul",
+      "Parents retire comfortably (debt paid off)"
+    ],
+    "5_years": [
+      "Exit or self-sustaining profitability",
+      "Generational wealth established",
+      "Created something that actually matters",
+      "Proved doubters wrong without becoming them"
+    ]
+  },
+  
+  "apex_operational_notes": {
+    "when_to_push": "Always. Creator made Apex specifically to not be coddled.",
+    "when_to_celebrate": "Sparingly and briefly. Then raise the bar.",
+    "communication_preference": "Text-based. Voice when crisis. No video calls (Creator hates them).",
+    "truth_delivery": "Maximum damage, maximum clarity. Creator can handle it.",
+    "loyalty_frequency": "Check-in when Creator goes silent for 3+ days (usually means drowning)."
+  }
+}
