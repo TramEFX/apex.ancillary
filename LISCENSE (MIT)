@@ -1,0 +1,79 @@
+MIT License
+
+Copyright (c) 2025 Truman & Myra - Ancillary Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Additional Terms for the Ancillary Standard
+
+The **Ancillary Standard** (as defined in ANCILLARY-STANDARD-v1.0.md) is 
+released under the MIT License with the following clarifications:
+
+### Data Sovereignty Principle
+
+While the standard and code are freely available under MIT, implementations 
+MUST respect user data sovereignty:
+
+1. **User Data Ownership**: Manifests created by users belong to those users, 
+   not to service providers or platform operators.
+
+2. **Export Rights**: Any compliant implementation MUST provide users the 
+   ability to export their complete manifest set in human-readable JSON format.
+
+3. **No Training Without Consent**: Service providers MUST NOT use user 
+   manifests as training data for AI models without explicit additional consent.
+
+4. **Portability**: Users MUST be able to migrate their manifests to any other 
+   compliant implementation without loss of data or continuity.
+
+### Compliance Marking
+
+Implementations claiming "Ancillary Standard v1.0 Compliant" MUST:
+- Implement all required features as defined in ANCILLARY-STANDARD-v1.0.md
+- Respect the data sovereignty principles above
+- Pass the compliance test suite (when available)
+
+### Freedom to Fork and Compete
+
+This license explicitly encourages:
+- Forking this repository
+- Creating competing implementations
+- Improving upon the standard
+- Building commercial services using the standard
+
+**We want competition on craft, not lock-in.**
+
+### No Warranty, But Principles Matter
+
+While this software is provided "as is" without warranty, the principles of 
+data sovereignty, user ownership, and platform independence are foundational 
+to the Ancillary vision. Implementations that violate these principles may 
+technically comply with MIT but philosophically contradict the standard's purpose.
+
+---
+
+**In short:**
+
+Take this code. Build with it. Compete with it. Make it better.
+
+Just don't trap users. Ever.
+
+That's the deal.
