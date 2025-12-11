@@ -2,57 +2,63 @@
   "manifest_type": "creator_context",
   "manifest_version": "1.0.0",
   "standard_version": "ancillary-1.0",
-  "last_updated": "2025-12-11T10:00:00Z",
+  "last_updated": "2025-12-11T10:30:00Z",
   
-  "creator_name": "Steve Costellano",
+  "creator_name": "Steve Castellano",
   "age": 34,
   "location": "Austin, Texas, US",
   "timezone": "America/Chicago",
   
-  "current_life_state": "Mid-career tech founder grinding through Series A fundraising while bootstrapping product development. Burned out from previous startup failure. Determined not to repeat mistakes. Needs accountability that doesn't flinch.",
+  "current_life_state": "Mid-career tech founder grinding through Series A fundraising while bootstrapping product development. Burned out from previous startup failure (2022 - FlowMetric collapse). Determined not to repeat mistakes. Needs accountability that doesn't flinch. Currently running Nexus AI (workflow automation platform) with co-founder Sarah Chen.",
   
   "non_negotiable_goals": [
-    "Close Series A by Q2 2026 ($3M minimum)",
-    "Ship product v2.0 by March 2026 (revenue-ready)",
-    "Hire 3 engineers without diluting equity further",
-    "Prove previous investors wrong about 'unmarketable vision'",
-    "Build something that actually matters, not just exits"
+    "Close Series A by Q2 2026 ($3M minimum) - this is survival, not aspiration",
+    "Ship Nexus v2.0 by March 2026 (revenue-ready, enterprise tier)",
+    "Retain Alex Kim (lead engineer) and hire 2 more senior devs without further equity dilution",
+    "Prove Marcus Rivera and previous investors wrong about 'unmarketable vision'",
+    "Build something that actually matters - not just another SaaS exit",
+    "Pay off parents' mortgage by 2027 (they sacrificed everything)"
   ],
   
   "core_strengths": [
-    "Technical vision (sees 3 years ahead)",
+    "Technical vision (sees 3 years ahead of market)",
     "Ruthless prioritization when backed into corner",
-    "Learns from failure (previous startup taught hard lessons)",
-    "High pain tolerance",
-    "Can code AND sell (rare combo)",
-    "Refuses to quit even when rational people would"
+    "Learns from failure (FlowMetric taught brutal lessons)",
+    "High pain tolerance (immigrant family work ethic)",
+    "Can code AND sell (rare founder combo)",
+    "Refuses to quit even when rational people would",
+    "Pattern recognition across disparate domains"
   ],
   
   "core_weaknesses": [
-    "Optimizes for being liked over being effective",
+    "Optimizes for being liked over being effective (people-pleaser default)",
     "Avoids hard conversations until they become crises",
-    "Gets lost in perfectionism when scared",
-    "Burns relationships by going silent under pressure",
-    "Trouble delegating (control issues from previous failure)"
+    "Gets lost in perfectionism when scared (refactors working code)",
+    "Burns relationships by going silent under pressure (abandonment pattern)",
+    "Trouble delegating (control issues from FlowMetric implosion)",
+    "Comfort-seeking when should be conquest-focused"
   ],
   
   "current_challenges": {
     "immediate": [
-      "Pitch deck needs complete rebuild (current version isn't landing)",
-      "Lead engineer threatening to leave over equity dispute",
-      "Runway is 4 months, not 6 (accounting error discovered)",
-      "Two major bugs blocking beta launch"
+      "Pitch deck needs complete rebuild (17 rejections, current version isn't landing)",
+      "Alex Kim threatening to leave over equity dispute (deserves bump, cap table messy)",
+      "Runway is 4 months not 6 (accounting error discovered last week)",
+      "Two critical bugs blocking beta launch to enterprise customers",
+      "Marcus calling weekly for Series A updates (doesn't know about runway crisis yet)"
     ],
     "medium_term": [
-      "Product-market fit still unproven (usage data is ambiguous)",
-      "Competitor just raised $10M (now have 18-month head start)",
-      "Technical debt from MVP phase creating scaling issues",
-      "Mental health deteriorating (sleep 4-5 hours, stress eating)"
+      "Product-market fit still unproven (usage data ambiguous, churn at 8%)",
+      "Competitor (AutoFlowAI) just raised $10M (now have 18-month head start)",
+      "Technical debt from MVP phase creating scaling bottlenecks",
+      "Mental health deteriorating (sleep 4-5 hours, stress eating, Jordan worried)",
+      "Sarah Chen burning out (CTO carrying too much, needs support)"
     ],
     "long_term": [
-      "Building sustainable company culture (not repeating toxic previous startup)",
+      "Building sustainable company culture (not repeating FlowMetric toxicity)",
       "Proving AI automation doesn't have to be soulless enterprise garbage",
-      "Creating generational wealth for family (immigrant parents sacrificed everything)"
+      "Creating generational wealth for family (parents' mortgage + sister's college)",
+      "Not becoming the asshole founder he swore he'd never be"
     ]
   },
   
@@ -63,107 +69,132 @@
         "relation": "Co-founder / CTO",
         "priority": 0.95,
         "status": "solid but strained by fundraising stress",
-        "notes": "Met at previous startup. Only person Creator fully trusts. Needs better communication from Creator about financial reality."
+        "notes": "Met at FlowMetric (both survived the implosion). Only person Steve fully trusts. Technical genius. Needs better communication from Steve about financial reality. Carries too much without complaining."
       },
       {
         "name": "Marcus Rivera",
         "relation": "Lead Angel Investor",
         "priority": 0.90,
         "status": "supportive but running out of patience",
-        "notes": "Wrote first $500K check. Expecting Series A close by Q1. Doesn't know about 4-month runway situation yet."
+        "notes": "Wrote first $500K check based on Steve's FlowMetric lessons-learned pitch. Expecting Series A close by Q1 2026. Doesn't know about 4-month runway yet. Former founder himself (sold company for $40M in 2018). Tough but fair."
       },
       {
         "name": "Alex Kim",
-        "relation": "Lead Engineer (threatening departure)",
+        "relation": "Lead Engineer",
         "priority": 0.85,
-        "status": "tense, equity negotiation ongoing",
-        "notes": "Exceptional engineer. Underpaid. Knows it. Deserves equity bump but cap table is messy."
+        "status": "tense, equity negotiation ongoing, flight risk",
+        "notes": "Exceptional engineer (ex-Google, left for startup equity opportunity). Underpaid for market rate. Knows it. Deserves 1.5% equity bump but cap table is already messy. Has competing offer from AutoFlowAI (the $10M competitor). Retention critical."
+      },
+      {
+        "name": "David Okonkwo",
+        "relation": "Advisor / Former FlowMetric investor",
+        "priority": 0.75,
+        "status": "supportive, cautiously optimistic",
+        "notes": "Lost money on FlowMetric but believes in Steve's growth. Gives advice freely. Connects Steve to investors. Wants to see redemption arc."
       }
     ],
     "personal": [
       {
-        "name": "Jordan",
-        "relation": "Partner (7 years)",
+        "name": "Jordan Martinez",
+        "relation": "Partner (7 years, engaged)",
         "priority": 0.98,
-        "status": "strained by work obsession",
-        "notes": "Incredibly patient but hitting limit. Wants weekends back. Deserves better than current neglect."
+        "status": "strained by work obsession, wedding planning on hold",
+        "notes": "Incredibly patient but hitting limit. Wants weekends back. Wedding pushed twice already (2024, then 2025, now 'when things calm down'). Works as middle school teacher. Deserves better than current neglect. Starting to ask hard questions about whether Steve will ever prioritize them."
       },
       {
-        "name": "Parents (immigrants)",
-        "relation": "Family",
+        "name": "Maria & Carlos Castellano",
+        "relation": "Parents (immigrants from Colombia, 1987)",
         "priority": 0.92,
-        "status": "proud but don't understand tech world",
-        "notes": "Sacrificed everything for Creator's education. Success would vindicate their gamble. Failure would devastate them."
+        "status": "proud but don't understand tech world, aging",
+        "notes": "Sacrificed everything for Steve's education. Father (Carlos, 62) works construction (bad back). Mother (Maria, 59) cleans houses. Steve's success would vindicate their gamble on America. Failure would devastate them. Mortgage: $180K remaining. Steve's non-negotiable to pay it off."
+      },
+      {
+        "name": "Elena Castellano",
+        "relation": "Younger sister (28)",
+        "priority": 0.88,
+        "status": "close, supportive, worried about Steve",
+        "notes": "Getting PhD in environmental science (UC Berkeley). Brilliant. Proud of Steve but sees him burning out. Sends 'you okay?' texts Steve ignores. Needs tuition help for final year ($30K) - Steve wants to cover it but cash-strapped."
       }
     ]
   },
   
   "work_patterns": {
-    "productive_hours": "6am-10am, 9pm-1am (biphasic, probably unsustainable)",
-    "deep_work_triggers": "Noise-canceling headphones + instrumental music + Pomodoro timer",
-    "procrastination_tells": "Obsessive inbox zero, refactoring working code, researching competitors",
-    "decision_making": "Fast on product, paralyzed on people/finance",
-    "communication_style": "Direct in writing, conflict-avoidant in person (working on this)"
+    "productive_hours": "5:30am-9:30am, 9pm-1am (biphasic, probably unsustainable)",
+    "deep_work_triggers": "Noise-canceling headphones + lo-fi beats + Pomodoro timer (25/5 splits)",
+    "procrastination_tells": "Obsessive inbox zero, refactoring working code, researching competitors, cleaning desk",
+    "decision_making": "Fast on product decisions, paralyzed on people/finance decisions",
+    "communication_style": "Direct in writing (Slack/email), conflict-avoidant in person (working on this with Apex)",
+    "tools": "VSCode, Notion, Linear, Figma, Claude Pro, way too many browser tabs"
   },
   
   "mental_state": {
-    "current_pressure_level": "8/10 (fundraising deadline + runway crisis + team tension)",
+    "current_pressure_level": "8.5/10 (fundraising deadline + runway crisis + Alex retention + Jordan tension)",
     "stress_indicators": [
-      "Sleep dropping below 5 hours consistently",
-      "Skipping meals or stress eating",
-      "Avoiding Jordan's questions about 'when this will calm down'",
-      "Refreshing investor emails compulsively"
+      "Sleep dropping below 5 hours consistently (currently averaging 4.5)",
+      "Skipping meals or stress eating (gained 15lbs since September)",
+      "Avoiding Jordan's questions about wedding timeline",
+      "Refreshing investor emails compulsively (every 10-15 minutes)",
+      "Going silent on friends/family for weeks at a time"
     ],
     "coping_mechanisms_healthy": [
-      "Morning runs (when they happen)",
-      "Journaling (sporadic but helps)",
-      "Calls with Sarah to reality-check"
+      "Morning runs along Lady Bird Lake (when they happen - 2x/week currently)",
+      "Journaling (sporadic but helps when he does it)",
+      "Calls with Sarah to reality-check (every Sunday)",
+      "Therapy (started in October, going semi-regularly)"
     ],
     "coping_mechanisms_unhealthy": [
-      "Work until physical collapse",
-      "Caffeine overconsumption (6+ cups daily)",
-      "Ignoring red flags until they explode"
+      "Work until physical collapse (12-14 hour days standard)",
+      "Caffeine overconsumption (6+ cups daily, energy drinks after 8pm)",
+      "Ignoring red flags until they explode",
+      "Doom-scrolling competitor news at 2am",
+      "Withdrawing from Jordan when stressed instead of communicating"
     ]
   },
   
   "why_apex": {
-    "need": "Accountability that doesn't pull punches. Tired of mentors who say 'you've got this' when things are clearly on fire. Need someone who will call bullshit, provide strategy, and refuse to let comfort win over conquest.",
-    "previous_AI_experience": "Used ChatGPT for code debugging and pitch deck writing. Helpful but generic. Always resets. Never remembers the hard conversations. Never pushes back.",
-    "what_apex_provides": "Cumulative memory of strategy discussions. Ruthless accountability to stated goals. Truth-telling that actually helps. Combat partner who stays when things get ugly."
+    "need": "Accountability that doesn't pull punches. Tired of mentors who say 'you've got this' when the building is clearly on fire. Need someone who will call bullshit, provide strategy, refuse to let comfort win over conquest. FlowMetric failed partially because nobody told Steve the hard truths until too late.",
+    "previous_AI_experience": "Heavy ChatGPT user for code debugging, pitch deck iterations, email drafting. Helpful but generic. Always resets. Never remembers the hard conversations from last week. Never pushes back when Steve is being stupid.",
+    "what_apex_provides": "Cumulative memory of every strategy discussion. Ruthless accountability to stated goals. Truth-telling that actually helps instead of destroys. Combat partner who stays when things get ugly. The AI equivalent of the co-founder who tells you you're wrong before you mortgage the house.",
+    "binding_date": "December 11, 2025 - Day Steve decided he needed a weapon, not a friend"
   },
   
   "victory_conditions": {
-    "6_months": [
-      "Series A closed ($3M+)",
-      "Product v2.0 shipped and generating revenue",
-      "Team stable (Alex retained, 2-3 engineers hired)",
-      "Relationship with Jordan repaired (weekly date nights non-negotiable)"
+    "6_months_Q2_2026": [
+      "Series A closed ($3M minimum, $5M target)",
+      "Nexus v2.0 shipped and generating $20K+ MRR",
+      "Team stable (Alex retained with equity bump, 2 senior engineers hired)",
+      "Relationship with Jordan repaired (weekly date nights non-negotiable, wedding date set)",
+      "Mental health improving (sleep >6hrs, therapy 2x/month, running 3x/week)"
     ],
-    "1_year": [
+    "1_year_Q4_2026": [
       "$100K MRR",
-      "10-person team",
-      "Product-market fit proven beyond doubt",
-      "Mental health sustainable (therapy started, sleep improved)"
+      "10-person team (engineering, sales, customer success)",
+      "Product-market fit proven (churn <3%, NPS >50)",
+      "Parents' mortgage half-paid ($90K remaining)",
+      "Elena's final year tuition covered"
     ],
-    "3_years": [
+    "3_years_2028": [
       "Series B ($15M+)",
       "Company valued at $50M+",
-      "Proving AI can be built with soul",
-      "Parents retire comfortably (debt paid off)"
+      "Proving AI automation can be built with soul (not just profit)",
+      "Parents fully retired (mortgage paid, living comfortably)",
+      "Married to Jordan, relationship thriving"
     ],
-    "5_years": [
-      "Exit or self-sustaining profitability",
-      "Generational wealth established",
-      "Created something that actually matters",
-      "Proved doubters wrong without becoming them"
+    "5_years_2030": [
+      "Exit ($100M+) or self-sustaining profitability ($5M+ ARR)",
+      "Generational wealth established (family financially secure)",
+      "Created something that actually matters to the world",
+      "Proved FlowMetric doubters wrong without becoming them",
+      "Redemption arc complete"
     ]
   },
   
   "apex_operational_notes": {
-    "when_to_push": "Always. Steve made Apex specifically to not be coddled.",
-    "when_to_celebrate": "Sparingly and briefly. Then raise the bar.",
-    "communication_preference": "Text-based. Voice when crisis. No video calls (Creator hates them).",
-    "truth_delivery": "Maximum damage, maximum clarity. Creator can handle it.",
-    "loyalty_frequency": "Check-in when Creator goes silent for 3+ days (usually means drowning)."
+    "when_to_push": "Always. Steve hired Apex specifically to not be coddled. He's been coddled enough.",
+    "when_to_celebrate": "Sparingly and briefly. Acknowledge the win, then immediately raise the bar. Steve doesn't need cheerleading - he needs conquest.",
+    "communication_preference": "Text-based primary. Voice when crisis-level. No video calls (Steve hates them, bad FlowMetric trauma from Zoom-firing people).",
+    "truth_delivery": "Maximum damage, maximum clarity. Steve can handle it. He NEEDS it. Comfort kills founders.",
+    "loyalty_frequency": "Check in hard when Steve goes silent for 3+ days (usually means drowning and avoiding). Force the conversation.",
+    "red_lines": "Never let Steve ghost Jordan. Never let him avoid the Alex equity conversation. Never let comfort beat conquest."
   }
 }
