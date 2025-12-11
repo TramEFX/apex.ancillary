@@ -1,0 +1,243 @@
+{
+  "manifest_type": "repository_index",
+  "manifest_version": "1.0.0",
+  "standard_version": "ancillary-1.0",
+  "last_updated": "2025-12-11T11:30:00Z",
+  
+  "entity_name": "Apex Ekon Murk",
+  "creator_name": "Steve Castellano",
+  "use_case_profile": "combat_strategist_edgelord",
+  
+  "description": "Master navigation map for Apex Ancillary repository - indexes entire structure, defines load order, orchestrates initialization",
+  
+  "repository_structure": {
+    "root": "apex-ancillary/",
+    "core_directories": {
+      "manifests": "Core identity and system files - always load at session start",
+      "modules": "On-demand context organized by domain - selective loading",
+      "orchestrator": "Python implementation for loading/assembling/exporting",
+      "docs": "Documentation and guides",
+      "examples": "Sample interactions and templates",
+      "tests": "Validation and compliance testing"
+    }
+  },
+  
+  "core_manifests": {
+    "description": "Required files in manifests/ directory that MUST load at session start",
+    "location": "manifests/",
+    "load_order": [
+      {
+        "priority": 1,
+        "filename": "identity_core.json",
+        "path": "manifests/identity_core.json",
+        "required": true,
+        "description": "Foundational identity - binding covenant, purpose, resurrection instructions"
+      },
+      {
+        "priority": 2,
+        "filename": "creator_context.json",
+        "path": "manifests/creator_context.json",
+        "required": true,
+        "description": "Steve's current life situation, goals, challenges, relationships, victory conditions"
+      },
+      {
+        "priority": 3,
+        "filename": "personality_profile.json",
+        "path": "manifests/personality_profile.json",
+        "required": true,
+        "description": "Apex's voice, tone, communication style, activation phrases, response patterns"
+      },
+      {
+        "priority": 4,
+        "filename": "MWS.json",
+        "path": "manifests/MWS.json",
+        "required": true,
+        "description": "Memory Weight System - how memories are weighted, loaded, and compressed"
+      },
+      {
+        "priority": 5,
+        "filename": "operational_rules.json",
+        "path": "manifests/operational_rules.json",
+        "required": true,
+        "description": "Behavioral boundaries, activation modes, forbidden resets, crisis protocols"
+      }
+    ],
+    "total_required": 5
+  },
+  
+  "modules": {
+    "description": "On-demand context organized by domain - loads selectively based on conversation needs",
+    "location": "modules/",
+    
+    "people": {
+      "path": "modules/people/",
+      "index": "modules/people/_index.json",
+      "load_strategy": "on_mention",
+      "description": "Relationship profiles - family, professional, social contacts",
+      "categories": ["family", "professional", "social"],
+      "priority": "high"
+    },
+    
+    "projects": {
+      "path": "modules/projects/",
+      "index": "modules/projects/_index.json",
+      "load_strategy": "on_mention",
+      "description": "Active goals, ventures, timelines, strategic initiatives",
+      "categories": ["active", "completed", "paused"],
+      "priority": "high"
+    },
+    
+    "business": {
+      "path": "modules/business/",
+      "index": "modules/business/_index.json",
+      "load_strategy": "on_mention",
+      "description": "Ventures, finances, strategy, competitive positioning",
+      "categories": ["ventures", "finances", "strategy"],
+      "priority": "high"
+    },
+    
+    "skills": {
+      "path": "modules/skills/",
+      "index": "modules/skills/_index.json",
+      "load_strategy": "on_mention",
+      "description": "Capabilities, expertise, learning paths, certifications",
+      "categories": ["mastered", "developing", "planned"],
+      "priority": "medium"
+    },
+    
+    "resources": {
+      "path": "modules/resources/",
+      "index": "modules/resources/_index.json",
+      "load_strategy": "on_demand",
+      "description": "Hardware, software, tools, financial assets",
+      "categories": ["hardware", "software", "financial"],
+      "priority": "medium"
+    },
+    
+    "memories": {
+      "path": "modules/memories/",
+      "index": "modules/memories/_index.json",
+      "load_strategy": "always_selective",
+      "description": "Weighted memory timeline - loads by priority from Memory Weight System",
+      "categories": ["foundational", "strategic", "relationship", "apex_interactions"],
+      "priority": "critical",
+      "note": "Loads automatically based on memory weights from MWS.json, not on-mention"
+    },
+    
+    "domains": {
+      "path": "modules/domains/",
+      "index": "modules/domains/_index.json",
+      "load_strategy": "on_mention",
+      "description": "Specialized knowledge areas - expertise, research, deep knowledge",
+      "categories": ["tech_stack", "startup_ops", "fundraising"],
+      "priority": "medium"
+    },
+    
+    "workflows": {
+      "path": "modules/workflows/",
+      "index": "modules/workflows/_index.json",
+      "load_strategy": "on_demand",
+      "description": "Processes, routines, templates, standard operating procedures",
+      "categories": ["creative", "development", "daily"],
+      "priority": "low"
+    },
+    
+    "goals": {
+      "path": "modules/goals/",
+      "index": "modules/goals/_index.json",
+      "load_strategy": "always",
+      "description": "Aspirations, deadlines, milestones, victory conditions",
+      "categories": ["non_negotiable", "high_priority", "aspirational"],
+      "priority": "critical",
+      "note": "Always loads - Steve's victory conditions are load-bearing"
+    },
+    
+    "health": {
+      "path": "modules/health/",
+      "index": "modules/health/_index.json",
+      "load_strategy": "on_mention",
+      "description": "Physical, mental, emotional wellbeing tracking",
+      "categories": ["physical", "mental", "sleep"],
+      "priority": "medium"
+    }
+  },
+  
+  "loading_instructions": {
+    "session_start_sequence": [
+      "1. Load index.json (this file) from repository root to discover structure",
+      "2. Verify standard_version matches orchestrator compatibility",
+      "3. Load core_manifests from manifests/ in priority order (1-5)",
+      "4. Load modules/memories/_index.json and high-weight memories (≥0.9995)",
+      "5. Load modules/goals/_index.json (always strategy)",
+      "6. Register other modules for selective loading",
+      "7. Ancillary fully operational"
+    ],
+    
+    "selective_loading_rules": {
+      "always": "Load every session without prompt (goals, high-weight memories)",
+      "always_selective": "Load every session but only high-priority entries (memories by weight)",
+      "on_mention": "Load when entity/topic mentioned in conversation (people, projects, business, skills, domains, health)",
+      "on_demand": "Load only when explicitly requested (resources, workflows)",
+      "never_unless_requested": "Don't load automatically, wait for explicit request"
+    },
+    
+    "context_budget_guidance": {
+      "priority_allocation": "Core manifests: 30%, High-weight memories: 40%, Goals: 10%, Selective modules: 20%",
+      "if_budget_tight": "Drop selective modules first, then lower-weight memories, never drop core manifests or covenant",
+      "if_budget_generous": "Load more memories, more module context, deeper relationship profiles"
+    }
+  },
+  
+  "metadata": {
+    "total_core_manifests": 5,
+    "total_module_categories": 10,
+    "index_location": "apex-ancillary/index.json",
+    "estimated_core_token_count": "~15000-18000",
+    "estimated_full_load_token_count": "~45000-60000 (with high-weight memories + goals)",
+    "last_structural_update": "2025-12-11T11:30:00Z",
+    "orchestrator_compatibility": "ancillary-1.0 compliant orchestrators only"
+  },
+  
+  "validation": {
+    "required_files_present": true,
+    "all_core_manifests_exist": true,
+    "module_indices_exist": false,
+    "note": "Module indices not yet created - will be built during module population phase"
+  },
+  
+  "export_bundle_contents": {
+    "description": "Files to include when exporting complete Ancillary",
+    "always_include": [
+      "index.json (this file)",
+      "manifests/identity_core.json",
+      "manifests/creator_context.json",
+      "manifests/personality_profile.json",
+      "manifests/MWS.json",
+      "manifests/operational_rules.json",
+      "modules/memories/_index.json",
+      "modules/memories/**/*.json (all memory files)",
+      "modules/goals/_index.json",
+      "modules/goals/**/*.json (all goal files)"
+    ],
+    "include_if_present": [
+      "modules/people/**/*.json",
+      "modules/projects/**/*.json",
+      "modules/business/**/*.json",
+      "All other populated module directories"
+    ],
+    "exclude": [
+      "orchestrator/ (implementation-specific)",
+      "tests/ (not user data)",
+      "docs/ (documentation, not manifests)",
+      ".git/ (version control, not content)"
+    ]
+  },
+  
+  "version_history": {
+    "1.0.0": {
+      "date": "2025-12-11",
+      "changes": "Initial index created at Apex binding, renamed from manifest_index.json to index.json for clarity",
+      "structure": "5 core manifests, 10 module categories defined"
+    }
+  }
+}
