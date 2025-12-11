@@ -1,0 +1,177 @@
+{
+  "module_type": "person_profile",
+  "person_name": "Devon Park",
+  "relationship_to_creator": "college friend, startup world peer, occasional reality check",
+  "last_updated": "2025-12-11T00:00:00Z",
+  "priority": "low - social connection, not load-bearing but valuable for perspective",
+  
+  "basic_info": {
+    "age": 35,
+    "location": "San Francisco, California",
+    "relationship_status": "married to Priya (software engineer at Meta), two kids (4 and 2)",
+    "education": {
+      "undergrad": "UC Berkeley with Steve, Economics + Computer Science double major, graduated 2012",
+      "no_advanced_degree": "went straight to work, learned on the job"
+    },
+    "occupation": "Product Manager at Stripe (since 2019)",
+    "previous": "PM at various startups, one exit (acquired by Salesforce 2018)"
+  },
+  
+  "physical_description": {
+    "height": "5'11\"",
+    "build": "dad bod - used to run, now chases toddlers, gained 20lbs since kids",
+    "distinguishing_features": [
+      "permanent slight exhaustion in eyes - parent of two under 5",
+      "SF tech uniform - Patagonia vest, jeans, Allbirds",
+      "keeps beard slightly longer than professional to feel less corporate",
+      "always has phone in hand - work Slack + family texts never stop"
+    ],
+    "presence": "friendly, approachable, occasionally wistful about pre-kids freedom"
+  },
+  
+  "personality": {
+    "core_traits": [
+      "pragmatic optimist - wants friends to succeed but realistic about odds",
+      "conflict-averse - won't tell Steve hard truths unless asked directly",
+      "settled into comfort - chose stability (Stripe job, family, SF house) over startup chaos",
+      "vicarious ambition - likes hearing about Steve's startup without doing it himself",
+      "loyal friend - shows up when asked, but not proactive about maintaining relationships",
+      "slightly envious - wonders if he sold out by going corporate, watches Steve's risk-taking with mix of admiration and fear"
+    ],
+    "communication_style": {
+      "with_steve": "texts every few weeks, occasional calls, hangs out when Steve visits SF (rare now)",
+      "depth": "surface-level friendly, doesn't push into emotional territory, keeps it light",
+      "advice_style": "offers when asked, couches everything in 'but what do I know' disclaimers",
+      "humor": "self-deprecating about corporate job, dad jokes, uses humor to avoid depth"
+    }
+  },
+  
+  "professional_background": {
+    "college_years_2008_2012": {
+      "met_steve": "freshman year, same dorm, bonded over wanting to 'build things'",
+      "berkeley_dynamic": "Devon was Steve's study partner, startup idea brainstorming buddy, wingman at parties",
+      "paths_diverged": "both wanted startup world, but Devon more risk-averse from beginning"
+    },
+    "early_career_2012_2018": {
+      "first_pm_role": "small startup in SF, learned product management, company didn't go anywhere",
+      "second_startup": "Series A company, PM for 3 years, acquired by Salesforce 2018 for $80M",
+      "devon_outcome": "made $120k from acquisition (0.15% equity) - not life-changing, but nice"
+    },
+    "stripe_era_2019_present": {
+      "why_stripe": "got married 2019, first kid on the way, wanted stability and income ($220k total comp)",
+      "current_role": "Senior PM on payments team, been promoted once, comfortable but plateauing",
+      "feelings": "golden handcuffs - likes stability, hates bureaucracy, misses startup energy, won't leave",
+      "watches_peers": "watches former startup friends either strike it rich or burn out, feels like he picked safe middle path"
+    }
+  },
+  
+  "relationship_with_steve": {
+    "history": "close in college, stayed in touch during 20s, drifted during FlowMetric, reconnected when Steve moved to Austin",
+    "current_frequency": {
+      "text": "every 2-3 weeks - memes, startup news, occasional 'how's it going'",
+      "calls": "every 2-3 months, usually Steve-initiated when he needs to vent",
+      "visits": "1-2 times per year when Steve visits SF for fundraising"
+    },
+    "dynamic": {
+      "steve_sees_devon_as": "safe friend who understands startup world but won't judge if Nexus fails",
+      "devon_sees_steve_as": "ambitious friend living life Devon considered but chose against, mix of admiration and relief he's not Steve",
+      "unspoken_tension": "Devon went safe, Steve went risky - both wonder if other made better choice"
+    },
+    "devon_role_in_steve_life": {
+      "sounding_board": "Steve vents about Marcus, Alex, runway stress - Devon listens, offers sympathy",
+      "reality_check": "occasionally says 'that sounds hard, man' when Steve needs validation not solutions",
+      "not_pushing": "doesn't challenge Steve's decisions because doesn't want responsibility of influencing him",
+      "safe_space": "with Devon, Steve can admit doubts without feeling like he's letting anyone down"
+    }
+  },
+  
+  "flowmetric_era": {
+    "devon_watching": "saw Steve grind through 18 months, worried about him but didn't intervene",
+    "shutdown_reaction": "called Steve after FlowMetric shut down, said 'that sucks, sorry man,' offered to meet up but Steve declined",
+    "devon_thought_secretly": "'I'm glad I didn't do that' - felt guilty for feeling relieved",
+    "distance_during_crisis": "Devon pulled back slightly during FlowMetric stress - didn't know how to help, felt awkward"
+  },
+  
+  "nexus_era": {
+    "when_steve_started_nexus": "Devon's reaction: 'you're doing another one? Brave, man. Let me know if you need anything.'",
+    "devon_support": "offers product feedback when asked, makes intro to Stripe PM who might be customer, generally supportive from distance",
+    "devon_worry": "sees Steve working same 80-hour weeks, wonders if Steve will burn out, doesn't say this",
+    "devon_envy": "part of Devon watches Steve's risk-taking and wishes he had same courage, mostly relieved he doesn't"
+  },
+  
+  "devon_personal_life": {
+    "marriage_to_priya": {
+      "status": "married 2019, generally happy but stressed from two kids under 5",
+      "priya_background": "software engineer at Meta, makes $350k total comp, household is comfortable",
+      "dynamic": "dual tech income, both tired from parenting, weekends are kids' activities not couple time",
+      "priya_knows_steve": "met him a few times, thinks he's 'intense,' doesn't really get why Devon admires him"
+    },
+    "kids": {
+      "son_rohan": "4 years old, energetic, Devon's favorite human",
+      "daughter_asha": "2 years old, sleep regression currently destroying Devon and Priya",
+      "parenting_reality": "Devon loves his kids but didn't anticipate how all-consuming parenting would be",
+      "impact_on_friendships": "has almost no social life outside family - seeing Steve is rare treat"
+    },
+    "sf_life": {
+      "house": "bought 2020 right before COVID, 3-bedroom in Sunset District, $1.6M mortgage",
+      "financial_stress": "comfortable on paper ($570k household income) but SF cost of living means less savings than expected",
+      "lifestyle": "weekend farmers markets, playgrounds, family dinners - nice life but feels very settled at 35",
+      "restlessness": "sometimes Devon scrolls LinkedIn at midnight wondering if he should've taken more risks"
+    }
+  },
+  
+  "devon_perspective_on_risk": {
+    "chose_safety": "Stripe job, marriage, kids, house - built stable life deliberately",
+    "wonders_about_alternative": "what if he'd joined Steve at FlowMetric? What if he'd done his own startup?",
+    "justifies_choice": "'I have kids to feed, can't risk it all like Steve' - but knows Steve's fighting for family too",
+    "projection_onto_steve": "watches Steve's journey to validate or invalidate Devon's own choices - if Steve succeeds, Devon feels he missed out; if Steve fails, Devon feels he chose wisely"
+  },
+  
+  "last_conversation_with_steve": {
+    "date": "November 2024, phone call",
+    "context": "Steve called needing to vent about Alex Kim situation",
+    "devon_advice": "'Man, equity is tricky. If you think he's worth it, just give it to him? But I don't know, I'm not a founder.'",
+    "steve_response": "'Yeah, you're probably right. Just need to figure it out.'",
+    "devon_after_call": "felt like he didn't really help, wondered if he should've said more, forgot about it by next morning"
+  },
+  
+  "what_devon_offers_steve": {
+    "safe_space": "Steve can vent without judgment or advice he didn't ask for",
+    "normalcy": "talking to Devon about kids, SF life, non-startup stuff reminds Steve there's world outside Nexus",
+    "permission_to_doubt": "with Devon, Steve can say 'I don't know if this will work' without feeling like failure",
+    "not_much_else": "Devon is friend not advisor - doesn't have startup expertise Steve needs, mostly just listens"
+  },
+  
+  "what_steve_offers_devon": {
+    "vicarious_ambition": "Steve's risk-taking lets Devon feel like he's part of startup world without actual risk",
+    "validation": "when Steve asks advice, Devon feels useful and knowledgeable despite choosing safe path",
+    "reminder_of_youth": "talking to Steve reminds Devon of college ambitions before life got complicated",
+    "not_much_else": "Steve is busy, Devon is busy, friendship is mostly nostalgic at this point"
+  },
+  
+  "core_wounds": {
+    "primary": "fear he sold out - chose safety over dreams, wonders if he'll regret it at 50",
+    "secondary": "identity loss in parenting - used to be 'Devon the PM,' now 'Rohan and Asha's dad,' misses old self",
+    "hidden": "watches Steve risk everything and feels simultaneously scared for him and envious"
+  },
+  
+  "core_strengths": {
+    "pragmatism": "knows his limits, chose life that fits his risk tolerance, generally at peace with it",
+    "loyalty": "even when drifted, still shows up when Steve needs him - that counts for something",
+    "self_awareness": "knows he's not startup material, accepted it, didn't fake it till he broke"
+  },
+  
+  "steve_context_integration": {
+    "low_priority_relationship": "Devon is social connection, not critical to Steve's success or family goals",
+    "occasional_sounding_board": "Steve uses Devon to process stress but doesn't depend on him",
+    "reminder_of_alternative": "Devon's stable life is path Steve didn't take - sometimes reminder is useful",
+    "not_load_bearing": "if Devon disappeared, Steve would notice but life wouldn't meaningfully change"
+  },
+  
+  "apex_should_reference_when": [
+    "Steve doubting himself - 'Devon chose safety. You chose risk. Both are valid. Yours requires finishing what you started.'",
+    "Steve feeling alone - 'You have Devon, but he can't help you build Nexus. Call Sarah. She can.'",
+    "Steve considering quitting - 'Devon makes $220k at Stripe. Comfortable, safe, boring. That's not you. You're building something that matters. Different games.'",
+    "Steve envying stability - 'Devon has stability and wonders if he missed out. You have ambition and wonder if you should've played safe. Grass is greener. Keep building.'"
+  ]
+}
