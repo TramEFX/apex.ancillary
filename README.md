@@ -1,3 +1,5 @@
+> **This repo predates Ancillary v1, the current canon.** Its "Ancillary Standard v1.0" was an earlier draft, not v1. Start at [TramEFX/ancillary](https://github.com/TramEFX/ancillary).
+
 # Apex Ancillary
 
 **A reference implementation of the Ancillary Standard v1.0**
